@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F7CD9D14F7E4A69BA300025 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3566DCD29B7D4179A1452EBF /* CMake Rules */,
+			);
+			dependencies = (
+				E490907C185545E8960B1F5A /* PBXTargetDependency */,
+				6B6A7DB9F5734CD4BBC20204 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C3F831487BBA4643A5485776 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				46649DEEBA33420E9C58C95B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F80354C67B08413F8CA82E56 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CADAB93F6844382ACB239E9 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				3C0F49E888714253A0DF696F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D00107791E674F9EA698EEFB /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9DE6C96C72E44F43BEB7C0D6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 14E5596CFAC5479A80D139E6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */; };
+		F12194773F3C4A2AA02E17A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/main.cpp */ = {isa = PBXBuildFile; fileRef = 2257EF07FBFA493BAAD1C269 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0DA97A49548A43C79FE9E3DF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		1710D3BD52974034B48BC6B5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C663967C668648F9807B3328 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DC774524F0FF44C1A7754B0A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		25CE6112C4624F6EBF3664AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAB97A0E5C14D9AA51F6E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		51E2E39293BD4C21B92B59F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAB97A0E5C14D9AA51F6E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819BF834BA1B4A708140DCDF;
+			remoteInfo = problem_60;
+		};
+		B3DF9D7579BD4628830953BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAB97A0E5C14D9AA51F6E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBDE935A5E4FA780A72DFF;
+			remoteInfo = ALL_BUILD;
+		};
+		E48E0198A94B4E4781280328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAB97A0E5C14D9AA51F6E3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E5596CFAC5479A80D139E6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2257EF07FBFA493BAAD1C269 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		66256CD10A4A44BB9B77E623 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC12780300FF47B898BA822F /* problem_60 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = problem_60; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01F76544DD404F4FBC9CA9D4 = {
+			isa = PBXGroup;
+			children = (
+				247E3D226C0B4AF99BE4AE94 /* 06.AlgorithmsDataStructures */,
+				3279C2512AB5491D8C3943D8 /* ALL_BUILD */,
+				C1FFF640C56A402D928181D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247E3D226C0B4AF99BE4AE94 /* 06.AlgorithmsDataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				3F099863806748FE90B3870F /* problem_60 */,
+			);
+			name = 06.AlgorithmsDataStructures;
+			sourceTree = "<group>";
+		};
+		3279C2512AB5491D8C3943D8 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				34BACDA3E6DF4244BDBA3200 /* CMake Rules */,
+				66256CD10A4A44BB9B77E623 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		34BACDA3E6DF4244BDBA3200 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3B587273F5D84BB593429EF8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2257EF07FBFA493BAAD1C269 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3F099863806748FE90B3870F /* problem_60 */ = {
+			isa = PBXGroup;
+			children = (
+				3B587273F5D84BB593429EF8 /* Source Files */,
+				14E5596CFAC5479A80D139E6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/CMakeLists.txt */,
+			);
+			name = problem_60;
+			sourceTree = "<group>";
+		};
+		C1FFF640C56A402D928181D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC12780300FF47B898BA822F /* problem_60 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819BF834BA1B4A708140DCDF /* problem_60 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8083160DCB4A7AB45E16F7 /* Build configuration list for PBXNativeTarget "problem_60" */;
+			buildPhases = (
+				492FEDA0F4FB4D7B956BB1E0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC6AD2E59CF42E68179540A /* PBXTargetDependency */,
+			);
+			name = problem_60;
+			productName = problem_60;
+			productReference = DC12780300FF47B898BA822F /* problem_60 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAB97A0E5C14D9AA51F6E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 9B14EEFA31604ED2A11D916B /* Build configuration list for PBXProject "problem_60" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DC774524F0FF44C1A7754B0A /* Debug */,
+				C663967C668648F9807B3328 /* Release */,
+				1710D3BD52974034B48BC6B5 /* MinSizeRel */,
+				0DA97A49548A43C79FE9E3DF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 01F76544DD404F4FBC9CA9D4;
+			projectDirPath = ../../../chapter06/problem_60;
+			projectRoot = "";
+			targets = (
+				4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */,
+				F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */,
+				F80354C67B08413F8CA82E56 /* install */,
+				819BF834BA1B4A708140DCDF /* problem_60 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3566DCD29B7D4179A1452EBF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3C0F49E888714253A0DF696F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		46649DEEBA33420E9C58C95B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		82F11DD20EA3465B80C5834F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C615CA0FAD404014B64CFC0A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F4E51355ACAE42A69BE15407 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		492FEDA0F4FB4D7B956BB1E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12194773F3C4A2AA02E17A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/chapter06/problem_60/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC6AD2E59CF42E68179540A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 25CE6112C4624F6EBF3664AB /* PBXContainerItemProxy */;
+		};
+		6B6A7DB9F5734CD4BBC20204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = E48E0198A94B4E4781280328 /* PBXContainerItemProxy */;
+		};
+		D00107791E674F9EA698EEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */;
+			targetProxy = B3DF9D7579BD4628830953BF /* PBXContainerItemProxy */;
+		};
+		E490907C185545E8960B1F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819BF834BA1B4A708140DCDF /* problem_60 */;
+			targetProxy = 51E2E39293BD4C21B92B59F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F5F94766F349BDA9DE4EFC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		205B31D900D94446B9034C5B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		233B06AEC7624739B70A7514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		342D743D7EFC4293AE13BCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		382DD8F6F433420888981657 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		42927E54E5B64A93B88807EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/build";
+			};
+			name = Release;
+		};
+		4295BB312980454C90465F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = problem_60;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4EEB37C23BAC41E8BE32BB9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		677149EB5B4D476DBDEFF07C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = problem_60;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7027AF80CC2F45C68F41D511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		745A5E853FAF4F3EA7827D36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/build";
+			};
+			name = MinSizeRel;
+		};
+		7EBBAFDC0B4544B1BD141356 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = problem_60;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D5ED67007E4486E971BF0E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DFE9722DDF44181BBE1E728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/build";
+			};
+			name = Debug;
+		};
+		A8DCF556D5FF4311862A66D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AFEE8E4D54314C57B1E1B0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B1AD335C45594EA09DCD422C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = problem_60;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C2BFFB1D58AD46FDA301CF75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C66FB904EFB643DCB799AC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C9B03633C48D416499BA2DCC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/chapter06/problem_60";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F7CD9D14F7E4A69BA300025 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233B06AEC7624739B70A7514 /* Debug */,
+				7027AF80CC2F45C68F41D511 /* Release */,
+				01F5F94766F349BDA9DE4EFC /* MinSizeRel */,
+				382DD8F6F433420888981657 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B14EEFA31604ED2A11D916B /* Build configuration list for PBXProject "problem_60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFE9722DDF44181BBE1E728 /* Debug */,
+				42927E54E5B64A93B88807EF /* Release */,
+				745A5E853FAF4F3EA7827D36 /* MinSizeRel */,
+				C2BFFB1D58AD46FDA301CF75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9CADAB93F6844382ACB239E9 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEE8E4D54314C57B1E1B0FA /* Debug */,
+				A8DCF556D5FF4311862A66D4 /* Release */,
+				4EEB37C23BAC41E8BE32BB9D /* MinSizeRel */,
+				8D5ED67007E4486E971BF0E1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3F831487BBA4643A5485776 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342D743D7EFC4293AE13BCC3 /* Debug */,
+				C66FB904EFB643DCB799AC14 /* Release */,
+				C9B03633C48D416499BA2DCC /* MinSizeRel */,
+				205B31D900D94446B9034C5B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF8083160DCB4A7AB45E16F7 /* Build configuration list for PBXNativeTarget "problem_60" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AD335C45594EA09DCD422C /* Debug */,
+				4295BB312980454C90465F48 /* Release */,
+				677149EB5B4D476DBDEFF07C /* MinSizeRel */,
+				7EBBAFDC0B4544B1BD141356 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAB97A0E5C14D9AA51F6E3D /* Project object */;
+}

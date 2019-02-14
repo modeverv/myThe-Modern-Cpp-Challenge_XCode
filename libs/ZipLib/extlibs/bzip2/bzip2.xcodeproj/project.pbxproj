@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBCEA0F9A535465F960D548D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5174109B86BC43228D985F59 /* CMake Rules */,
+			);
+			dependencies = (
+				941FFAF1E960408CA174EE98 /* PBXTargetDependency */,
+				EE9626A1A34C4ACCA5862265 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D99D076F4FB64699A0CD86ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1034E000B1844446B70FC895 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F80354C67B08413F8CA82E56 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66512AA1ABE546CBB793A204 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				0E4DA0ACA97B43D1AF171612 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				14680BA7C78547258AD22ED7 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A053F46E6D842DC9BA87909 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/compress.c */ = {isa = PBXBuildFile; fileRef = 13EC40CCF9374466A2E7ED03 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/compress.c */; };
+		25F1D2D8B73B4B9B98DEFEF9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib_private.h */ = {isa = PBXBuildFile; fileRef = 3392EB4CFC654DD0A5136B05 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib_private.h */; };
+		3C41E76A5C2F43A0BB7E57CE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/huffman.c */ = {isa = PBXBuildFile; fileRef = 8D9ABB27CA2D4545897EA3D9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/huffman.c */; };
+		3D97CCC858E94231AD663642 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzerror.c */ = {isa = PBXBuildFile; fileRef = BDF50AFBDB0147FDB7FF1FE7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzerror.c */; };
+		5900DB999BA44D01AD33D681 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.h */ = {isa = PBXBuildFile; fileRef = 2BA001B9E12045F8AA6288D3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.h */; };
+		62AC1F559AEB4144A9C8426E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/decompress.c */ = {isa = PBXBuildFile; fileRef = C1F8E1B260BB4F14A7AA44DC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/decompress.c */; };
+		6F1A3B40AAA5401897125121 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/randtable.c */ = {isa = PBXBuildFile; fileRef = AC0EA26E41AE47068071C729 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/randtable.c */; };
+		7916B9F8D120411EADC6DF3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/crctable.c */ = {isa = PBXBuildFile; fileRef = FD574D52806142B289ECB4E0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/crctable.c */; };
+		928151F8B1254C7984BC47D5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/blocksort.c */ = {isa = PBXBuildFile; fileRef = 46DE3B0AB3B944BEA238B23D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/blocksort.c */; };
+		BFEAB56AF2934CC89ED8C6CC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.c */ = {isa = PBXBuildFile; fileRef = FAFAE20537E94C0FB28B20ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.c */; };
+		F0C8CD569F2B419885021B08 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 878ED8E071C246FDA467262C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		38106740E95841FDB1FF508C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A4807C0C506144F69814E3A3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D2BD30F8DAED439FB3ED7F61 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D3CD1C8E883C406DA9DCD199 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4F15ACC52DDB48C499121457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B78C9E76B435D8DF6A84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBDE935A5E4FA780A72DFF;
+			remoteInfo = ALL_BUILD;
+		};
+		72748C9F211D42B980E4A79E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B78C9E76B435D8DF6A84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDF0841626C4744825B0CC1;
+			remoteInfo = bzip2;
+		};
+		827B0D8F6C954335BF130AA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B78C9E76B435D8DF6A84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7E89387193D448995202720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4B78C9E76B435D8DF6A84A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EC40CCF9374466A2E7ED03 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = compress.c; path = compress.c; sourceTree = SOURCE_ROOT; };
+		2BA001B9E12045F8AA6288D3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bzlib.h; path = bzlib.h; sourceTree = SOURCE_ROOT; };
+		3392EB4CFC654DD0A5136B05 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib_private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bzlib_private.h; path = bzlib_private.h; sourceTree = SOURCE_ROOT; };
+		34FA7797A59446BA973E9F52 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		46DE3B0AB3B944BEA238B23D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/blocksort.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = blocksort.c; path = blocksort.c; sourceTree = SOURCE_ROOT; };
+		7B00C498BE89408FAC635964 /* bzip2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbzip2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		878ED8E071C246FDA467262C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D9ABB27CA2D4545897EA3D9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/huffman.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = huffman.c; path = huffman.c; sourceTree = SOURCE_ROOT; };
+		AC0EA26E41AE47068071C729 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/randtable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = randtable.c; path = randtable.c; sourceTree = SOURCE_ROOT; };
+		BDF50AFBDB0147FDB7FF1FE7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bzerror.c; path = bzerror.c; sourceTree = SOURCE_ROOT; };
+		C1F8E1B260BB4F14A7AA44DC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/decompress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = decompress.c; path = decompress.c; sourceTree = SOURCE_ROOT; };
+		FAFAE20537E94C0FB28B20ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bzlib.c; path = bzlib.c; sourceTree = SOURCE_ROOT; };
+		FD574D52806142B289ECB4E0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/crctable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = crctable.c; path = crctable.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B17DE96DDB0448A8B4031D9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				16FED0B9AF324B58AA795394 /* CMake Rules */,
+				34FA7797A59446BA973E9F52 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0D43E693638E4C8BB814534B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				46DE3B0AB3B944BEA238B23D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/blocksort.c */,
+				BDF50AFBDB0147FDB7FF1FE7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzerror.c */,
+				FAFAE20537E94C0FB28B20ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.c */,
+				13EC40CCF9374466A2E7ED03 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/compress.c */,
+				FD574D52806142B289ECB4E0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/crctable.c */,
+				C1F8E1B260BB4F14A7AA44DC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/decompress.c */,
+				8D9ABB27CA2D4545897EA3D9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/huffman.c */,
+				AC0EA26E41AE47068071C729 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/randtable.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		16FED0B9AF324B58AA795394 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		54295F57DC344F53963A2116 = {
+			isa = PBXGroup;
+			children = (
+				FF010246067544E4A6C2576D /* 00.Libs */,
+				0B17DE96DDB0448A8B4031D9 /* ALL_BUILD */,
+				95F6088453CA46239FD846C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2B0F290F5D488081462574 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA001B9E12045F8AA6288D3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.h */,
+				3392EB4CFC654DD0A5136B05 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib_private.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		753274ADFDE94A0192ABE789 /* bzip2 */ = {
+			isa = PBXGroup;
+			children = (
+				5B2B0F290F5D488081462574 /* Header Files */,
+				0D43E693638E4C8BB814534B /* Source Files */,
+				878ED8E071C246FDA467262C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/CMakeLists.txt */,
+			);
+			name = bzip2;
+			sourceTree = "<group>";
+		};
+		95F6088453CA46239FD846C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B00C498BE89408FAC635964 /* bzip2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF010246067544E4A6C2576D /* 00.Libs */ = {
+			isa = PBXGroup;
+			children = (
+				753274ADFDE94A0192ABE789 /* bzip2 */,
+			);
+			name = 00.Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDF0841626C4744825B0CC1 /* bzip2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DA6EE1E86F4004B7AFC4C9 /* Build configuration list for PBXNativeTarget "bzip2" */;
+			buildPhases = (
+				4485FE88080245EDB704CAD4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C23DDB8A8D4064A698E30F /* PBXTargetDependency */,
+			);
+			name = bzip2;
+			productName = bzip2;
+			productReference = 7B00C498BE89408FAC635964 /* bzip2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4B78C9E76B435D8DF6A84A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 8663CBC205EB4C5F829D3C07 /* Build configuration list for PBXProject "bzip2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D3CD1C8E883C406DA9DCD199 /* Debug */,
+				38106740E95841FDB1FF508C /* Release */,
+				D2BD30F8DAED439FB3ED7F61 /* MinSizeRel */,
+				A4807C0C506144F69814E3A3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 54295F57DC344F53963A2116;
+			projectDirPath = ../../../../../libs/ZipLib/extlibs/bzip2;
+			projectRoot = "";
+			targets = (
+				4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */,
+				F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */,
+				DDDF0841626C4744825B0CC1 /* bzip2 */,
+				F80354C67B08413F8CA82E56 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF90E62EBCF49B090796BDB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0E4DA0ACA97B43D1AF171612 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		1034E000B1844446B70FC895 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		10B8874817E649E2885DDA54 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5174109B86BC43228D985F59 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2 -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7FDF2040B8CE4CA1B98E27A8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4485FE88080245EDB704CAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928151F8B1254C7984BC47D5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/blocksort.c */,
+				3D97CCC858E94231AD663642 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzerror.c */,
+				BFEAB56AF2934CC89ED8C6CC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/bzlib.c */,
+				1A053F46E6D842DC9BA87909 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/compress.c */,
+				7916B9F8D120411EADC6DF3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/crctable.c */,
+				62AC1F559AEB4144A9C8426E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/decompress.c */,
+				3C41E76A5C2F43A0BB7E57CE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/huffman.c */,
+				6F1A3B40AAA5401897125121 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/bzip2/randtable.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14680BA7C78547258AD22ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */;
+			targetProxy = 4F15ACC52DDB48C499121457 /* PBXContainerItemProxy */;
+		};
+		941FFAF1E960408CA174EE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 827B0D8F6C954335BF130AA6 /* PBXContainerItemProxy */;
+		};
+		D0C23DDB8A8D4064A698E30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = B7E89387193D448995202720 /* PBXContainerItemProxy */;
+		};
+		EE9626A1A34C4ACCA5862265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDF0841626C4744825B0CC1 /* bzip2 */;
+			targetProxy = 72748C9F211D42B980E4A79E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B690439B2BC4F17B880A5B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		20CB11C390334EA7AE78F397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bzip2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		28046A99275149E080DB070C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2E1AB82E222F4A93BB1948D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2F05B3A9E3014594A4BCCD6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bzip2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		33392414C982467B82AD8CBA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		376DD1F6EE6143AEA3D63C5F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bzip2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4ADDA52CCF3A44B9ACFE8109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/build";
+			};
+			name = Debug;
+		};
+		4D68A39A8A094E3E859668CF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7125AFFA4FE74E8889E5934B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F2366BAF28F4C2ABD81EE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8A102AF02A9B44AAB1065E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		97522B8C6409459FB00CB636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/build";
+			};
+			name = Release;
+		};
+		B54422D8F0DD48229CB56491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D05C743954894E43BF270014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D31B3FC344E94A1B8C35DCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D721B06472BA44C094227BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bzip2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FAB3432CB596498DAB8FF9DA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FCDEB9E6E38F4E3BAB1A2927 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/build";
+			};
+			name = MinSizeRel;
+		};
+		FD5B04FAAEDF40918272F0C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/bzip2/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66512AA1ABE546CBB793A204 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54422D8F0DD48229CB56491 /* Debug */,
+				8A102AF02A9B44AAB1065E9D /* Release */,
+				1B690439B2BC4F17B880A5B5 /* MinSizeRel */,
+				FAB3432CB596498DAB8FF9DA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		73DA6EE1E86F4004B7AFC4C9 /* Build configuration list for PBXNativeTarget "bzip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CB11C390334EA7AE78F397 /* Debug */,
+				D721B06472BA44C094227BB5 /* Release */,
+				376DD1F6EE6143AEA3D63C5F /* MinSizeRel */,
+				2F05B3A9E3014594A4BCCD6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8663CBC205EB4C5F829D3C07 /* Build configuration list for PBXProject "bzip2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADDA52CCF3A44B9ACFE8109 /* Debug */,
+				97522B8C6409459FB00CB636 /* Release */,
+				FCDEB9E6E38F4E3BAB1A2927 /* MinSizeRel */,
+				FD5B04FAAEDF40918272F0C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D99D076F4FB64699A0CD86ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05C743954894E43BF270014 /* Debug */,
+				7F2366BAF28F4C2ABD81EE9D /* Release */,
+				7125AFFA4FE74E8889E5934B /* MinSizeRel */,
+				4D68A39A8A094E3E859668CF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBCEA0F9A535465F960D548D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31B3FC344E94A1B8C35DCD7 /* Debug */,
+				2E1AB82E222F4A93BB1948D3 /* Release */,
+				28046A99275149E080DB070C /* MinSizeRel */,
+				33392414C982467B82AD8CBA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4B78C9E76B435D8DF6A84A /* Project object */;
+}

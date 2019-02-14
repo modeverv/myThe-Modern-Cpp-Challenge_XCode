@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B926CA52DDE44AFFA38FB0E4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3492F87463B447538D212820 /* CMake Rules */,
+			);
+			dependencies = (
+				0700B2D60871487995A5C316 /* PBXTargetDependency */,
+				B565AC7E6E534944B0BF130B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9C9FC49157FA498EB8B39539 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E36E574D55DA4DF4AB1C6273 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F80354C67B08413F8CA82E56 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 859296B936F14B43A1A226DD /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7B724628C5E34BC08FD6DE2E /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				EAB75626CF094665A23A1FB9 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11A999C881CD452B8B9229A2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdarith.c */ = {isa = PBXBuildFile; fileRef = 04539D7707AD47EDA07BCDBF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdarith.c */; };
+		125B7B73E3B144769CB7BD79 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccolor.c */ = {isa = PBXBuildFile; fileRef = BFFEBEFD6F84456585E674DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccolor.c */; };
+		1A1AFD6C0FB74C0387D586AF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdhuff.c */ = {isa = PBXBuildFile; fileRef = 8B0F5263982A461BB449A944 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdhuff.c */; };
+		24A180647B5848118A979305 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpeglib.h */ = {isa = PBXBuildFile; fileRef = 6BDF57C3FBFB45A4B831017C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpeglib.h */; };
+		27CF4B9BF0DC41DB84EDF376 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccoefct.c */ = {isa = PBXBuildFile; fileRef = D94C2D9C7EEC4F9C9587C62E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccoefct.c */; };
+		2DB3F0A8B50B4CA3B52AB644 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdpostct.c */ = {isa = PBXBuildFile; fileRef = 8054C2102EB04796A7EE04B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdpostct.c */; };
+		2F08B84FBBD64DD7BDBE2E72 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctflt.c */ = {isa = PBXBuildFile; fileRef = 9A07FAFAB0824539A9442B0E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctflt.c */; };
+		305E4084988146878586ADD3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmaster.c */ = {isa = PBXBuildFile; fileRef = AC0E788591CC4B44B4CFC4A0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmaster.c */; };
+		318B0E28F216428DB1C70055 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant2.c */ = {isa = PBXBuildFile; fileRef = 0340ADCC2E924E578A38A9BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant2.c */; };
+		36E2FFED57FA4A5DB87A323F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jctrans.c */ = {isa = PBXBuildFile; fileRef = 74550166EDCF416E83B33FD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jctrans.c */; };
+		3C558EBC0EA64316BC159AB4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jchuff.c */ = {isa = PBXBuildFile; fileRef = 557DFC74AC3A4E27B5BC69D1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jchuff.c */; };
+		3E4C30B0396B4B8990E22B59 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapistd.c */ = {isa = PBXBuildFile; fileRef = 25016DDDE11944528BA7B71D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapistd.c */; };
+		4D7ADBF98E9F450B86053F30 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcoefct.c */ = {isa = PBXBuildFile; fileRef = A9D0FC29CB8A4916ABDE7536 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcoefct.c */; };
+		4DD3A702AA12499AA60734B3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmarker.c */ = {isa = PBXBuildFile; fileRef = 54F90EC8D0E94996B1712B92 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmarker.c */; };
+		518A3FA6DD304CBA9D597FDA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmorecfg.h */ = {isa = PBXBuildFile; fileRef = 438C3E8A129042CE98E68CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmorecfg.h */; };
+		5A3C8A424310454BBAE3B162 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcsample.c */ = {isa = PBXBuildFile; fileRef = 14D0AE28B7DD46CAB1D6A6E4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcsample.c */; };
+		6254EDE4FCD849EFB1CBF833 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdtrans.c */ = {isa = PBXBuildFile; fileRef = 13E85FD6B76540BD81E904A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdtrans.c */; };
+		62D72FB060D0400BB7878FC9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcdctmgr.c */ = {isa = PBXBuildFile; fileRef = C3F6A5D687D043B28EC75480 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcdctmgr.c */; };
+		67A71EDBB85549B8B4269770 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmerge.c */ = {isa = PBXBuildFile; fileRef = 53A83EC246B24881884AD8B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmerge.c */; };
+		68E4E3BFA8484CAE9913E615 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctflt.c */ = {isa = PBXBuildFile; fileRef = 2B8AF1E37F3F45359C2D2340 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctflt.c */; };
+		6BC06F8A0276473DB0D1EEC3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcolor.c */ = {isa = PBXBuildFile; fileRef = 9156EE6276CC43319127C018 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcolor.c */; };
+		70D36A4D7AAC42FE911CEB69 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.h */ = {isa = PBXBuildFile; fileRef = A2C74732FAFC4334AE4A65FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.h */; };
+		7322E461BAD442B6B25740A6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdinput.c */ = {isa = PBXBuildFile; fileRef = 4F36B21308BD4AE0897F7F07 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdinput.c */; };
+		7505A7A653C84D7C909D3241 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctfst.c */ = {isa = PBXBuildFile; fileRef = F4420A8A6B444174A6D28270 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctfst.c */; };
+		75475BE6E3C845D1BC22AA53 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jinclude.h */ = {isa = PBXBuildFile; fileRef = 4270F67E2E7641C89B342D29 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jinclude.h */; };
+		784F86435F2A4A359C8F2C82 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmarker.c */ = {isa = PBXBuildFile; fileRef = 67AE8D6B55B1412783996F14 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmarker.c */; };
+		78846A0176E249278D1DE79B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemsys.h */ = {isa = PBXBuildFile; fileRef = EEBE570E212F4CAEA7DD1704 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemsys.h */; };
+		7950DF43ECA34C5E82195140 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jddctmgr.c */ = {isa = PBXBuildFile; fileRef = 161BC93532264C2C994B9A5F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jddctmgr.c */; };
+		79923D198D894FF3B4F74901 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmainct.c */ = {isa = PBXBuildFile; fileRef = 683E2B656F0245BAB44CD75B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmainct.c */; };
+		7BB51B312995436D9D3BA61A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcarith.c */ = {isa = PBXBuildFile; fileRef = 1AB21A730CB4432B816102A2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcarith.c */; };
+		7ECA8961F2CE46B69F4AA30B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2F628E76D1854B13A2DF5FBC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */; };
+		7ECF38CAB0864FD89DDA1837 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctint.c */ = {isa = PBXBuildFile; fileRef = 3D3F80669BB34F1693798532 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctint.c */; };
+		8094B01CE83049269803093D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmainct.c */ = {isa = PBXBuildFile; fileRef = FF81D78D2A454AE3B458EE1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmainct.c */; };
+		83489DC50BF54AF6A3789D1F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemmgr.c */ = {isa = PBXBuildFile; fileRef = 689A27FA00E144C59518D403 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemmgr.c */; };
+		86B5B4236CEB491B8B338028 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctfst.c */ = {isa = PBXBuildFile; fileRef = 8404FD2CE20449BA901610D7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctfst.c */; };
+		892AF43592EF42828E45AF93 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcomapi.c */ = {isa = PBXBuildFile; fileRef = A25FDC4ECC6E4A47A2B5365B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcomapi.c */; };
+		8D49DC2B1816457497E1034E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant1.c */ = {isa = PBXBuildFile; fileRef = 7904DAE3D7C14631B468ADA0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant1.c */; };
+		9112683616DB4B51977ACED3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jutils.c */ = {isa = PBXBuildFile; fileRef = C6B028CBA9E1494EBA989113 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jutils.c */; };
+		9135948D826C498292EB444F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcprepct.c */ = {isa = PBXBuildFile; fileRef = D48155289ABD4749A9E6D78D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcprepct.c */; };
+		9A0A9EB3FFF444148B6FE2E1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemnobs.c */ = {isa = PBXBuildFile; fileRef = 31998AB8AA3D4A39A9D810EB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemnobs.c */; };
+		A0083019B7F34FCCA4114614 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdct.h */ = {isa = PBXBuildFile; fileRef = 3523E35CAD2B494C958428FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdct.h */; };
+		A3DFAC837DB541D38809BA0A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcinit.c */ = {isa = PBXBuildFile; fileRef = 0F4AEDDF5E144EC4ACB94EC6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcinit.c */; };
+		A7D25DCA74A44350B0B8349A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jversion.h */ = {isa = PBXBuildFile; fileRef = 6D52F661678E4FBB96C7B9D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jversion.h */; };
+		AA2934FB11D345A49EAF3721 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdsample.c */ = {isa = PBXBuildFile; fileRef = 25E51B946BBB42D899849B15 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdsample.c */; };
+		AF2A42E5892346949E30A36D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapimin.c */ = {isa = PBXBuildFile; fileRef = C19A9F12580D4B5C9F07972D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapimin.c */; };
+		BDACAB6B0E1D4D72B1DD7373 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctint.c */ = {isa = PBXBuildFile; fileRef = 73433698EF034886B20AF7AE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctint.c */; };
+		C476586FCB194258ACCF6B38 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatasrc.c */ = {isa = PBXBuildFile; fileRef = 5BAE781EE50A490EA862F14B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatasrc.c */; };
+		CBB355BA91FB4677A8F7902C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpegint.h */ = {isa = PBXBuildFile; fileRef = 27783A92B1AB42F8966B99AF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpegint.h */; };
+		D48135ECF7A64F1E8D8D9D52 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jaricom.c */ = {isa = PBXBuildFile; fileRef = 6E53059E94874DCB88BBD610 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jaricom.c */; };
+		E2A14A9770D347F5844E8348 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcparam.c */ = {isa = PBXBuildFile; fileRef = DB2800BE39E74B198ECB891F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcparam.c */; };
+		E72CDA2A9AB2422193EF97FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapistd.c */ = {isa = PBXBuildFile; fileRef = 19066522FEDB411EA494EA5B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapistd.c */; };
+		EAB3471FFDEF46578750E5D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatadst.c */ = {isa = PBXBuildFile; fileRef = 2BF6F16B71874C87A3751E2C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatadst.c */; };
+		F2140D7FE7E545F2AA201806 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jconfig.h */ = {isa = PBXBuildFile; fileRef = CDE26AAD713A4656A16D315E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jconfig.h */; };
+		F851CB01B9D242379748CC2A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmaster.c */ = {isa = PBXBuildFile; fileRef = FC683DBDF7C846DAA07E412B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmaster.c */; };
+		F9F94801419A4324B8F6EF09 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapimin.c */ = {isa = PBXBuildFile; fileRef = 6B0E0039F7DD40318C8C95AC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapimin.c */; };
+		FC70DAB6E2884A92B6517CDD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.c */ = {isa = PBXBuildFile; fileRef = 01CD8BAD026F4860A0CE0CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0099C9DA74944C4E8117D52F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		2484DCAAFD1C476D8FB56A5E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4C24845A66214D7C8AC37FA7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D6EABFAF6A2944ED8DD7415C /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		58AC8B473A9F4783991E0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB84D9942C34D438F5AD4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBDE935A5E4FA780A72DFF;
+			remoteInfo = ALL_BUILD;
+		};
+		77D5D8A3527A4E158D42ABDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB84D9942C34D438F5AD4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE65DCF86B324B9FAE52F5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB84D9942C34D438F5AD4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36430C338DD544A19703F69E;
+			remoteInfo = LibJpeg;
+		};
+		FB7D97094A114EA3B10B463E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CB84D9942C34D438F5AD4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CD8BAD026F4860A0CE0CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jerror.c; path = jerror.c; sourceTree = SOURCE_ROOT; };
+		0340ADCC2E924E578A38A9BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant2.c; path = jquant2.c; sourceTree = SOURCE_ROOT; };
+		04539D7707AD47EDA07BCDBF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdarith.c; path = jdarith.c; sourceTree = SOURCE_ROOT; };
+		0F4AEDDF5E144EC4ACB94EC6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcinit.c; path = jcinit.c; sourceTree = SOURCE_ROOT; };
+		11E62D3F911B4A298239FFA1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13E85FD6B76540BD81E904A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdtrans.c; path = jdtrans.c; sourceTree = SOURCE_ROOT; };
+		14D0AE28B7DD46CAB1D6A6E4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcsample.c; path = jcsample.c; sourceTree = SOURCE_ROOT; };
+		161BC93532264C2C994B9A5F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jddctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jddctmgr.c; path = jddctmgr.c; sourceTree = SOURCE_ROOT; };
+		19066522FEDB411EA494EA5B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapistd.c; path = jdapistd.c; sourceTree = SOURCE_ROOT; };
+		1AB21A730CB4432B816102A2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcarith.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcarith.c; path = jcarith.c; sourceTree = SOURCE_ROOT; };
+		25016DDDE11944528BA7B71D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapistd.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapistd.c; path = jcapistd.c; sourceTree = SOURCE_ROOT; };
+		25E51B946BBB42D899849B15 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdsample.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdsample.c; path = jdsample.c; sourceTree = SOURCE_ROOT; };
+		27783A92B1AB42F8966B99AF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpegint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpegint.h; path = jpegint.h; sourceTree = SOURCE_ROOT; };
+		2B8AF1E37F3F45359C2D2340 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctflt.c; path = jfdctflt.c; sourceTree = SOURCE_ROOT; };
+		2BF6F16B71874C87A3751E2C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatadst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatadst.c; path = jdatadst.c; sourceTree = SOURCE_ROOT; };
+		2F628E76D1854B13A2DF5FBC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		31998AB8AA3D4A39A9D810EB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemnobs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemnobs.c; path = jmemnobs.c; sourceTree = SOURCE_ROOT; };
+		3523E35CAD2B494C958428FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdct.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jdct.h; path = jdct.h; sourceTree = SOURCE_ROOT; };
+		3D3F80669BB34F1693798532 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctint.c; path = jidctint.c; sourceTree = SOURCE_ROOT; };
+		4270F67E2E7641C89B342D29 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jinclude.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jinclude.h; path = jinclude.h; sourceTree = SOURCE_ROOT; };
+		438C3E8A129042CE98E68CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmorecfg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmorecfg.h; path = jmorecfg.h; sourceTree = SOURCE_ROOT; };
+		4F36B21308BD4AE0897F7F07 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdinput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdinput.c; path = jdinput.c; sourceTree = SOURCE_ROOT; };
+		53A83EC246B24881884AD8B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmerge.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmerge.c; path = jdmerge.c; sourceTree = SOURCE_ROOT; };
+		54F90EC8D0E94996B1712B92 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmarker.c; path = jdmarker.c; sourceTree = SOURCE_ROOT; };
+		557DFC74AC3A4E27B5BC69D1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jchuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jchuff.c; path = jchuff.c; sourceTree = SOURCE_ROOT; };
+		566AA83C3DB64B6B86F9814F /* LibJpeg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLibJpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAE781EE50A490EA862F14B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatasrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdatasrc.c; path = jdatasrc.c; sourceTree = SOURCE_ROOT; };
+		67AE8D6B55B1412783996F14 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmarker.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmarker.c; path = jcmarker.c; sourceTree = SOURCE_ROOT; };
+		683E2B656F0245BAB44CD75B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmainct.c; path = jdmainct.c; sourceTree = SOURCE_ROOT; };
+		689A27FA00E144C59518D403 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jmemmgr.c; path = jmemmgr.c; sourceTree = SOURCE_ROOT; };
+		6B0E0039F7DD40318C8C95AC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcapimin.c; path = jcapimin.c; sourceTree = SOURCE_ROOT; };
+		6BDF57C3FBFB45A4B831017C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpeglib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jpeglib.h; path = jpeglib.h; sourceTree = SOURCE_ROOT; };
+		6D52F661678E4FBB96C7B9D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jversion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jversion.h; path = jversion.h; sourceTree = SOURCE_ROOT; };
+		6E53059E94874DCB88BBD610 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jaricom.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jaricom.c; path = jaricom.c; sourceTree = SOURCE_ROOT; };
+		73433698EF034886B20AF7AE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctint.c; path = jfdctint.c; sourceTree = SOURCE_ROOT; };
+		74550166EDCF416E83B33FD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jctrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jctrans.c; path = jctrans.c; sourceTree = SOURCE_ROOT; };
+		7904DAE3D7C14631B468ADA0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jquant1.c; path = jquant1.c; sourceTree = SOURCE_ROOT; };
+		8054C2102EB04796A7EE04B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdpostct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdpostct.c; path = jdpostct.c; sourceTree = SOURCE_ROOT; };
+		8404FD2CE20449BA901610D7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jfdctfst.c; path = jfdctfst.c; sourceTree = SOURCE_ROOT; };
+		8B0F5263982A461BB449A944 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdhuff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdhuff.c; path = jdhuff.c; sourceTree = SOURCE_ROOT; };
+		9156EE6276CC43319127C018 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcolor.c; path = jdcolor.c; sourceTree = SOURCE_ROOT; };
+		9A07FAFAB0824539A9442B0E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctflt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctflt.c; path = jidctflt.c; sourceTree = SOURCE_ROOT; };
+		A25FDC4ECC6E4A47A2B5365B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcomapi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcomapi.c; path = jcomapi.c; sourceTree = SOURCE_ROOT; };
+		A2C74732FAFC4334AE4A65FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jerror.h; path = jerror.h; sourceTree = SOURCE_ROOT; };
+		A9D0FC29CB8A4916ABDE7536 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdcoefct.c; path = jdcoefct.c; sourceTree = SOURCE_ROOT; };
+		AC0E788591CC4B44B4CFC4A0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmaster.c; path = jcmaster.c; sourceTree = SOURCE_ROOT; };
+		BFFEBEFD6F84456585E674DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccolor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccolor.c; path = jccolor.c; sourceTree = SOURCE_ROOT; };
+		C19A9F12580D4B5C9F07972D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapimin.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdapimin.c; path = jdapimin.c; sourceTree = SOURCE_ROOT; };
+		C3F6A5D687D043B28EC75480 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcdctmgr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcdctmgr.c; path = jcdctmgr.c; sourceTree = SOURCE_ROOT; };
+		C6B028CBA9E1494EBA989113 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jutils.c; path = jutils.c; sourceTree = SOURCE_ROOT; };
+		CDE26AAD713A4656A16D315E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jconfig.h; path = jconfig.h; sourceTree = SOURCE_ROOT; };
+		D48155289ABD4749A9E6D78D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcprepct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcprepct.c; path = jcprepct.c; sourceTree = SOURCE_ROOT; };
+		D94C2D9C7EEC4F9C9587C62E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccoefct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jccoefct.c; path = jccoefct.c; sourceTree = SOURCE_ROOT; };
+		DB2800BE39E74B198ECB891F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcparam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcparam.c; path = jcparam.c; sourceTree = SOURCE_ROOT; };
+		EEBE570E212F4CAEA7DD1704 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemsys.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = jmemsys.h; path = jmemsys.h; sourceTree = SOURCE_ROOT; };
+		F4420A8A6B444174A6D28270 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctfst.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jidctfst.c; path = jidctfst.c; sourceTree = SOURCE_ROOT; };
+		FC683DBDF7C846DAA07E412B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmaster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jdmaster.c; path = jdmaster.c; sourceTree = SOURCE_ROOT; };
+		FF81D78D2A454AE3B458EE1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmainct.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = jcmainct.c; path = jcmainct.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		467A2DD3539F4C7683DE02FC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		49BD82DB748F49CB913CB7DD /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE26AAD713A4656A16D315E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jconfig.h */,
+				3523E35CAD2B494C958428FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdct.h */,
+				A2C74732FAFC4334AE4A65FA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.h */,
+				4270F67E2E7641C89B342D29 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jinclude.h */,
+				EEBE570E212F4CAEA7DD1704 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemsys.h */,
+				438C3E8A129042CE98E68CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmorecfg.h */,
+				27783A92B1AB42F8966B99AF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpegint.h */,
+				6BDF57C3FBFB45A4B831017C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jpeglib.h */,
+				6D52F661678E4FBB96C7B9D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jversion.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4B75DA9817CE47A9A2E45A3A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E53059E94874DCB88BBD610 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jaricom.c */,
+				6B0E0039F7DD40318C8C95AC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapimin.c */,
+				25016DDDE11944528BA7B71D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapistd.c */,
+				1AB21A730CB4432B816102A2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcarith.c */,
+				D94C2D9C7EEC4F9C9587C62E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccoefct.c */,
+				BFFEBEFD6F84456585E674DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccolor.c */,
+				C3F6A5D687D043B28EC75480 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcdctmgr.c */,
+				557DFC74AC3A4E27B5BC69D1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jchuff.c */,
+				0F4AEDDF5E144EC4ACB94EC6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcinit.c */,
+				FF81D78D2A454AE3B458EE1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmainct.c */,
+				67AE8D6B55B1412783996F14 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmarker.c */,
+				AC0E788591CC4B44B4CFC4A0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmaster.c */,
+				A25FDC4ECC6E4A47A2B5365B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcomapi.c */,
+				DB2800BE39E74B198ECB891F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcparam.c */,
+				D48155289ABD4749A9E6D78D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcprepct.c */,
+				14D0AE28B7DD46CAB1D6A6E4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcsample.c */,
+				74550166EDCF416E83B33FD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jctrans.c */,
+				C19A9F12580D4B5C9F07972D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapimin.c */,
+				19066522FEDB411EA494EA5B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapistd.c */,
+				04539D7707AD47EDA07BCDBF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdarith.c */,
+				2BF6F16B71874C87A3751E2C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatadst.c */,
+				5BAE781EE50A490EA862F14B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatasrc.c */,
+				A9D0FC29CB8A4916ABDE7536 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcoefct.c */,
+				9156EE6276CC43319127C018 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcolor.c */,
+				161BC93532264C2C994B9A5F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jddctmgr.c */,
+				8B0F5263982A461BB449A944 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdhuff.c */,
+				4F36B21308BD4AE0897F7F07 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdinput.c */,
+				683E2B656F0245BAB44CD75B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmainct.c */,
+				54F90EC8D0E94996B1712B92 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmarker.c */,
+				FC683DBDF7C846DAA07E412B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmaster.c */,
+				53A83EC246B24881884AD8B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmerge.c */,
+				8054C2102EB04796A7EE04B6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdpostct.c */,
+				25E51B946BBB42D899849B15 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdsample.c */,
+				13E85FD6B76540BD81E904A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdtrans.c */,
+				01CD8BAD026F4860A0CE0CD7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.c */,
+				2B8AF1E37F3F45359C2D2340 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctflt.c */,
+				8404FD2CE20449BA901610D7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctfst.c */,
+				73433698EF034886B20AF7AE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctint.c */,
+				9A07FAFAB0824539A9442B0E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctflt.c */,
+				F4420A8A6B444174A6D28270 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctfst.c */,
+				3D3F80669BB34F1693798532 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctint.c */,
+				689A27FA00E144C59518D403 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemmgr.c */,
+				31998AB8AA3D4A39A9D810EB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemnobs.c */,
+				7904DAE3D7C14631B468ADA0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant1.c */,
+				0340ADCC2E924E578A38A9BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant2.c */,
+				C6B028CBA9E1494EBA989113 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jutils.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9DB06EE80037479CB7A7C873 /* LibJpeg */ = {
+			isa = PBXGroup;
+			children = (
+				4B75DA9817CE47A9A2E45A3A /* Source Files */,
+				49BD82DB748F49CB913CB7DD /* Header Files */,
+				2F628E76D1854B13A2DF5FBC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */,
+			);
+			name = LibJpeg;
+			sourceTree = "<group>";
+		};
+		B084F7672FB84F5485CB7311 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				467A2DD3539F4C7683DE02FC /* CMake Rules */,
+				11E62D3F911B4A298239FFA1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F11367B20CC34317AD4BE6E5 /* 00.Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9DB06EE80037479CB7A7C873 /* LibJpeg */,
+			);
+			name = 00.Libs;
+			sourceTree = "<group>";
+		};
+		F4BE2CF37FC4405096CB1C1F = {
+			isa = PBXGroup;
+			children = (
+				F11367B20CC34317AD4BE6E5 /* 00.Libs */,
+				B084F7672FB84F5485CB7311 /* ALL_BUILD */,
+				FBBCA72E1DC04CE582BECB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBCA72E1DC04CE582BECB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566AA83C3DB64B6B86F9814F /* LibJpeg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36430C338DD544A19703F69E /* LibJpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FC468D1AAD4F26A23CA05E /* Build configuration list for PBXNativeTarget "LibJpeg" */;
+			buildPhases = (
+				ED0442789936457DABB5B06D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3425470534AE4D8BBC357D9D /* PBXTargetDependency */,
+			);
+			name = LibJpeg;
+			productName = LibJpeg;
+			productReference = 566AA83C3DB64B6B86F9814F /* LibJpeg */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CB84D9942C34D438F5AD4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = D85B5AEE39744F92A3AF518A /* Build configuration list for PBXProject "LibJpeg" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D6EABFAF6A2944ED8DD7415C /* Debug */,
+				4C24845A66214D7C8AC37FA7 /* Release */,
+				0099C9DA74944C4E8117D52F /* MinSizeRel */,
+				2484DCAAFD1C476D8FB56A5E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F4BE2CF37FC4405096CB1C1F;
+			projectDirPath = "../../../../libs/PDF-Writer/LibJpeg";
+			projectRoot = "";
+			targets = (
+				4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */,
+				36430C338DD544A19703F69E /* LibJpeg */,
+				F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */,
+				F80354C67B08413F8CA82E56 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3492F87463B447538D212820 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4B1C6F95A19A45D0A48476B7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7B1881E4D5FA440597766900 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7B724628C5E34BC08FD6DE2E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E36E574D55DA4DF4AB1C6273 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F025C0F0235B4AD2B498FD57 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0442789936457DABB5B06D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48135ECF7A64F1E8D8D9D52 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jaricom.c */,
+				F9F94801419A4324B8F6EF09 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapimin.c */,
+				3E4C30B0396B4B8990E22B59 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcapistd.c */,
+				7BB51B312995436D9D3BA61A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcarith.c */,
+				27CF4B9BF0DC41DB84EDF376 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccoefct.c */,
+				125B7B73E3B144769CB7BD79 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jccolor.c */,
+				62D72FB060D0400BB7878FC9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcdctmgr.c */,
+				3C558EBC0EA64316BC159AB4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jchuff.c */,
+				A3DFAC837DB541D38809BA0A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcinit.c */,
+				8094B01CE83049269803093D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmainct.c */,
+				784F86435F2A4A359C8F2C82 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmarker.c */,
+				305E4084988146878586ADD3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcmaster.c */,
+				892AF43592EF42828E45AF93 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcomapi.c */,
+				E2A14A9770D347F5844E8348 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcparam.c */,
+				9135948D826C498292EB444F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcprepct.c */,
+				5A3C8A424310454BBAE3B162 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jcsample.c */,
+				36E2FFED57FA4A5DB87A323F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jctrans.c */,
+				AF2A42E5892346949E30A36D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapimin.c */,
+				E72CDA2A9AB2422193EF97FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdapistd.c */,
+				11A999C881CD452B8B9229A2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdarith.c */,
+				EAB3471FFDEF46578750E5D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatadst.c */,
+				C476586FCB194258ACCF6B38 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdatasrc.c */,
+				4D7ADBF98E9F450B86053F30 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcoefct.c */,
+				6BC06F8A0276473DB0D1EEC3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdcolor.c */,
+				7950DF43ECA34C5E82195140 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jddctmgr.c */,
+				1A1AFD6C0FB74C0387D586AF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdhuff.c */,
+				7322E461BAD442B6B25740A6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdinput.c */,
+				79923D198D894FF3B4F74901 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmainct.c */,
+				4DD3A702AA12499AA60734B3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmarker.c */,
+				F851CB01B9D242379748CC2A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmaster.c */,
+				67A71EDBB85549B8B4269770 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdmerge.c */,
+				2DB3F0A8B50B4CA3B52AB644 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdpostct.c */,
+				AA2934FB11D345A49EAF3721 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdsample.c */,
+				6254EDE4FCD849EFB1CBF833 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jdtrans.c */,
+				FC70DAB6E2884A92B6517CDD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jerror.c */,
+				68E4E3BFA8484CAE9913E615 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctflt.c */,
+				86B5B4236CEB491B8B338028 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctfst.c */,
+				BDACAB6B0E1D4D72B1DD7373 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jfdctint.c */,
+				2F08B84FBBD64DD7BDBE2E72 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctflt.c */,
+				7505A7A653C84D7C909D3241 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctfst.c */,
+				7ECF38CAB0864FD89DDA1837 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jidctint.c */,
+				83489DC50BF54AF6A3789D1F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemmgr.c */,
+				9A0A9EB3FFF444148B6FE2E1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jmemnobs.c */,
+				8D49DC2B1816457497E1034E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant1.c */,
+				318B0E28F216428DB1C70055 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jquant2.c */,
+				9112683616DB4B51977ACED3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibJpeg/jutils.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0700B2D60871487995A5C316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36430C338DD544A19703F69E /* LibJpeg */;
+			targetProxy = CE65DCF86B324B9FAE52F5F8 /* PBXContainerItemProxy */;
+		};
+		3425470534AE4D8BBC357D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 77D5D8A3527A4E158D42ABDB /* PBXContainerItemProxy */;
+		};
+		B565AC7E6E534944B0BF130B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = FB7D97094A114EA3B10B463E /* PBXContainerItemProxy */;
+		};
+		EAB75626CF094665A23A1FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */;
+			targetProxy = 58AC8B473A9F4783991E0748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD2D362C5FA4AB0BA1CB5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1DB0D0888E2A45BCBA1461CF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DC939D85F9949B2B884F17A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibJpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4A2B6816C01443969AB55BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/build";
+			};
+			name = Debug;
+		};
+		4B77EA12CBA149F79E2D6A2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		616632A8481248F7AD605B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6845B6A644F644B6AC67F563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6BBAB9FC8C2F4498B6916EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibJpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6BD105D35AEF4E1FACD7C713 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		742C9725FEB345CA9E08EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		811D308894D242CFBD0A3811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		87888009ACDC483EB8C38322 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/build";
+			};
+			name = RelWithDebInfo;
+		};
+		AD3A7E60416746F8BD7F76A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BCA2254E295C485DA71E081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibJpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C2A0BE0DD537425C80A7D09B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CA37961F45AC4CF0BB329372 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CDBCB54808A34E68A1D83B27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibJpeg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D00868305BC143FABE244B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/build";
+			};
+			name = Release;
+		};
+		E1B704926D5F4B379D44DEAA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg/build";
+			};
+			name = MinSizeRel;
+		};
+		F0CB09435B04404FB1F37258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibJpeg";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		859296B936F14B43A1A226DD /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811D308894D242CFBD0A3811 /* Debug */,
+				1AD2D362C5FA4AB0BA1CB5E9 /* Release */,
+				CA37961F45AC4CF0BB329372 /* MinSizeRel */,
+				1DB0D0888E2A45BCBA1461CF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C9FC49157FA498EB8B39539 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616632A8481248F7AD605B50 /* Debug */,
+				742C9725FEB345CA9E08EE12 /* Release */,
+				AD3A7E60416746F8BD7F76A3 /* MinSizeRel */,
+				C2A0BE0DD537425C80A7D09B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1FC468D1AAD4F26A23CA05E /* Build configuration list for PBXNativeTarget "LibJpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBAB9FC8C2F4498B6916EBC /* Debug */,
+				BCA2254E295C485DA71E081A /* Release */,
+				2DC939D85F9949B2B884F17A /* MinSizeRel */,
+				CDBCB54808A34E68A1D83B27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B926CA52DDE44AFFA38FB0E4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CB09435B04404FB1F37258 /* Debug */,
+				6845B6A644F644B6AC67F563 /* Release */,
+				4B77EA12CBA149F79E2D6A2A /* MinSizeRel */,
+				6BD105D35AEF4E1FACD7C713 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D85B5AEE39744F92A3AF518A /* Build configuration list for PBXProject "LibJpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2B6816C01443969AB55BAC /* Debug */,
+				D00868305BC143FABE244B60 /* Release */,
+				E1B704926D5F4B379D44DEAA /* MinSizeRel */,
+				87888009ACDC483EB8C38322 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CB84D9942C34D438F5AD4C8 /* Project object */;
+}

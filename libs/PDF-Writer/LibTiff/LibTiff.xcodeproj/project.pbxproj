@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3B35529C617D4A809204AFE2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D8575CD8261A44BEA6CF69EF /* CMake Rules */,
+			);
+			dependencies = (
+				2376A0474E0545E884598A87 /* PBXTargetDependency */,
+				31A9D97E95984DF68BEC871D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C8768734440044618C5FA295 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B7C2424A9420438188545977 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F80354C67B08413F8CA82E56 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 756BEE89EE5C460E945F3C1F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				4AF0DF6C17284B6FA1D436F9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				2CADA2945F2C42F595644175 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		055C04B946124CC9AA6AD72A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.hxx */ = {isa = PBXBuildFile; fileRef = 2EC958E8E6734F5D956C4F96 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.hxx */; };
+		0A3A95B9A5B04DF9B8112ECA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_read.c */ = {isa = PBXBuildFile; fileRef = 844D38E136984B95A22B719F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_read.c */; };
+		0AB8C04A0FB441CC87B0FF7A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_open.c */ = {isa = PBXBuildFile; fileRef = 01D87CE6EAD84A2C8C757DA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_open.c */; };
+		14CD856D3D35461D89FA924F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.h */ = {isa = PBXBuildFile; fileRef = 9850D5BD848F4F449B053E1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.h */; };
+		192ED8327B754C08B590CFF4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffiop.h */ = {isa = PBXBuildFile; fileRef = E215D5F5C2014FA39D023132 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffiop.h */; };
+		19F4C19AB30947BE95D32706 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_version.c */ = {isa = PBXBuildFile; fileRef = AB852B1143A54CDCA5BEF1C1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_version.c */; };
+		1D5C8E5300D44B4E965DA1C0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.c */ = {isa = PBXBuildFile; fileRef = A2E951FE20A1421DA259F12B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.c */; };
+		2198D650055444878EDA4C6E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_print.c */ = {isa = PBXBuildFile; fileRef = 64D3987756B7475381A24239 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_print.c */; };
+		2AD620EF92FD40C7BDF188E2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffvers.h */ = {isa = PBXBuildFile; fileRef = 40F97AAB92EC45CA96FA17D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffvers.h */; };
+		35D25C621D55432FA3437FA8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.h */ = {isa = PBXBuildFile; fileRef = 66EE10F6F48441E1BF3FD52B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.h */; };
+		3AA52C3D615A4F82BC8245F6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_ojpeg.c */ = {isa = PBXBuildFile; fileRef = 670D1271FCCA4D239BDE6492 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_ojpeg.c */; };
+		47B79FE17AED49CABF94C0B3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_getimage.c */ = {isa = PBXBuildFile; fileRef = CD6832F5808844819832CE88 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_getimage.c */; };
+		51EEFC2553F84ED38FD5BF2D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffconf.h */ = {isa = PBXBuildFile; fileRef = 399AD6E1A88D4C9080D9D65E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffconf.h */; };
+		57C6A3045FEC476A8E210A7E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dumpmode.c */ = {isa = PBXBuildFile; fileRef = 97F4BA9DAC7D4D45A2AED6A1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dumpmode.c */; };
+		5965A919C4264B5ABAB654F7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_stream.cxx */ = {isa = PBXBuildFile; fileRef = F4069BD12E46496CB4534192 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_stream.cxx */; };
+		6AF4C85232D04850B5246268 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_unix.c */ = {isa = PBXBuildFile; fileRef = 25319EC1D77547CBA334CFD3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_unix.c */; };
+		6B46B3CF7AEE428D87B6C0E1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jpeg.c */ = {isa = PBXBuildFile; fileRef = D19AF5D3649E42159F5F7398 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jpeg.c */; };
+		6F6C647C4CB04EF5AA6F3E1F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirwrite.c */ = {isa = PBXBuildFile; fileRef = 697A832533254DA68A0B9E67 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirwrite.c */; };
+		70406C67C32F4FB2A976C81A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_zip.c */ = {isa = PBXBuildFile; fileRef = F59460223F364A5FA5E28929 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_zip.c */; };
+		726AEA60E5344EED8E32A97E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_swab.c */ = {isa = PBXBuildFile; fileRef = B165578B063C4F78AFD490D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_swab.c */; };
+		743F2650DC0F47E79FEEC1AB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/uvcode.h */ = {isa = PBXBuildFile; fileRef = A96F2AC858B54D92A1C28F3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/uvcode.h */; };
+		802F55BC5CD74648985CA654 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiff.h */ = {isa = PBXBuildFile; fileRef = 749C72FAC7BE4315B49E2FB9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiff.h */; };
+		80538DE70AF64A86B58571D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_tile.c */ = {isa = PBXBuildFile; fileRef = AFA6702D4CDA42E5A8C791EA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_tile.c */; };
+		848CA36232174A5E8A7139E2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jbig.c */ = {isa = PBXBuildFile; fileRef = CA6ACFF77EBD40659A740DEB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jbig.c */; };
+		889F2FAEA9EB417AA4F2BDA4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.h */ = {isa = PBXBuildFile; fileRef = 256623F3EF1947678FE4C3D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.h */; };
+		89F5E73806DA4B2BBEC92587 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_aux.c */ = {isa = PBXBuildFile; fileRef = 11664625F46B41348603C667 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_aux.c */; };
+		8DC4315E6FA9468F95475A92 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_config.h */ = {isa = PBXBuildFile; fileRef = BC922E9B428241E1A0659B0F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_config.h */; };
+		99CA9B69DAA14623A7711BB7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.c */ = {isa = PBXBuildFile; fileRef = D3A91D959C394AE88E019C9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.c */; };
+		9B4B551A69A44C90B599C3D7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.h */ = {isa = PBXBuildFile; fileRef = 02C684BAF7E94D53A5F37DF2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.h */; };
+		9CEC7A4292F4448EB32A7CCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_luv.c */ = {isa = PBXBuildFile; fileRef = 697A77C517634E1FA469AC9A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_luv.c */; };
+		9FCF2D5DD97F47E3B29BA881 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_packbits.c */ = {isa = PBXBuildFile; fileRef = CCF24425E2CB45FFB19DD972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_packbits.c */; };
+		AABE18DC079E402695A6A7F4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.c */ = {isa = PBXBuildFile; fileRef = 1D784FBC9BBA42A589CF77B2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.c */; };
+		ACE2BD4247784F48ABF9C4ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirinfo.c */ = {isa = PBXBuildFile; fileRef = 6C27E36069F843E7A9888CAD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirinfo.c */; };
+		B13A6D7CD770413AA5AF1949 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_lzw.c */ = {isa = PBXBuildFile; fileRef = 0886BB586A8F48FFB137FF08 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_lzw.c */; };
+		B198D576A21B4E63A29F13D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_codec.c */ = {isa = PBXBuildFile; fileRef = 2651DA5CF67D476997CAF647 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_codec.c */; };
+		B1CC811895AD427B958B6DAF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/t4.h */ = {isa = PBXBuildFile; fileRef = E3124C5EADD145F780A97CDA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/t4.h */; };
+		BE1BCCE38BB94EEE8D1C02BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_flush.c */ = {isa = PBXBuildFile; fileRef = 03FC4806EBDE484786D109FE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_flush.c */; };
+		C01D847CFE584BE2ACE8BC3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_warning.c */ = {isa = PBXBuildFile; fileRef = 46E655CE6AA34B13845B43CD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_warning.c */; };
+		C1FAC7E3CDA446199F67990F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_write.c */ = {isa = PBXBuildFile; fileRef = 85A71C2856E2462389C052C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_write.c */; };
+		C2E0BB8C120B4D1DA4A839A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_strip.c */ = {isa = PBXBuildFile; fileRef = 49A0984DE97B4CC4AD7017A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_strip.c */; };
+		CBC03B44B29A4708B4E81D77 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_color.c */ = {isa = PBXBuildFile; fileRef = B7DE2916BA42418A82FB5984 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_color.c */; };
+		CC808E2210584234AC2EBB41 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirread.c */ = {isa = PBXBuildFile; fileRef = 3DD33C65810F460E8F8F7CA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirread.c */; };
+		D2ECF841B8914C658944F0ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_compress.c */ = {isa = PBXBuildFile; fileRef = 79D67F5389E7490B8CB2E5D2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_compress.c */; };
+		E03FD498276B4019B49D6A71 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_pixarlog.c */ = {isa = PBXBuildFile; fileRef = B7913E232EFE413AA3B272D0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_pixarlog.c */; };
+		EE9142318A424400A75E01B5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_thunder.c */ = {isa = PBXBuildFile; fileRef = C58406555D594D1CA6D289B4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_thunder.c */; };
+		F324768D7EFD4A0AADD37632 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A66B7D0249C4233894C2F10 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */; };
+		FCCCF4B53E924BDDAB748D47 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_extension.c */ = {isa = PBXBuildFile; fileRef = E045D3BD985E4A5986016222 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_extension.c */; };
+		FD3139050CDC44448619D3D1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_next.c */ = {isa = PBXBuildFile; fileRef = 4CCBC3890AC34815A980F88C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_next.c */; };
+		FEC1CDEE8EBC429B83CA011C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3sm.c */ = {isa = PBXBuildFile; fileRef = EFE48D78BBCA42F08F362741 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3sm.c */; };
+		FEFC43C7CEE44FE8B286B31B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_error.c */ = {isa = PBXBuildFile; fileRef = 808E74E2B1534AE9A421B4AB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_error.c */; };
+		FF6728FF7C624F1DA6163D77 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_close.c */ = {isa = PBXBuildFile; fileRef = 04FE95D3A83D41AAB86286D6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_close.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0A1F044BD02D43128D0E1A7E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		1E41736B17DD499B8F888919 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		2D2A31A02A6C4DD8A8FE749C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D333BB5D59F44BDFA0F4444B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		141AF79234C74789B0786850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB5BE742534C80AA89131A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		5AA9BB337FD24F1C87772C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB5BE742534C80AA89131A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		888B3F5304F945E5AE454E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB5BE742534C80AA89131A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602B544B5E094C23AB83B23F;
+			remoteInfo = LibTiff;
+		};
+		A5D8DF38E8FB46BFBE42D47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CB5BE742534C80AA89131A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBDE935A5E4FA780A72DFF;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D87CE6EAD84A2C8C757DA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_open.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_open.c; path = tif_open.c; sourceTree = SOURCE_ROOT; };
+		02C684BAF7E94D53A5F37DF2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_dir.h; path = tif_dir.h; sourceTree = SOURCE_ROOT; };
+		03FC4806EBDE484786D109FE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_flush.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_flush.c; path = tif_flush.c; sourceTree = SOURCE_ROOT; };
+		04FE95D3A83D41AAB86286D6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_close.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_close.c; path = tif_close.c; sourceTree = SOURCE_ROOT; };
+		0886BB586A8F48FFB137FF08 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_lzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_lzw.c; path = tif_lzw.c; sourceTree = SOURCE_ROOT; };
+		0A66B7D0249C4233894C2F10 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		11664625F46B41348603C667 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_aux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_aux.c; path = tif_aux.c; sourceTree = SOURCE_ROOT; };
+		1D784FBC9BBA42A589CF77B2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_predict.c; path = tif_predict.c; sourceTree = SOURCE_ROOT; };
+		25319EC1D77547CBA334CFD3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_unix.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_unix.c; path = tif_unix.c; sourceTree = SOURCE_ROOT; };
+		256623F3EF1947678FE4C3D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_predict.h; path = tif_predict.h; sourceTree = SOURCE_ROOT; };
+		2651DA5CF67D476997CAF647 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_codec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_codec.c; path = tif_codec.c; sourceTree = SOURCE_ROOT; };
+		2EC958E8E6734F5D956C4F96 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.hxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tiffio.hxx; path = tiffio.hxx; sourceTree = SOURCE_ROOT; };
+		34D0B4E24D294A13B2B380E7 /* LibTiff */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLibTiff.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		399AD6E1A88D4C9080D9D65E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffconf.h; path = tiffconf.h; sourceTree = SOURCE_ROOT; };
+		3DD33C65810F460E8F8F7CA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirread.c; path = tif_dirread.c; sourceTree = SOURCE_ROOT; };
+		40F97AAB92EC45CA96FA17D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffvers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffvers.h; path = tiffvers.h; sourceTree = SOURCE_ROOT; };
+		46E655CE6AA34B13845B43CD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_warning.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_warning.c; path = tif_warning.c; sourceTree = SOURCE_ROOT; };
+		49A0984DE97B4CC4AD7017A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_strip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_strip.c; path = tif_strip.c; sourceTree = SOURCE_ROOT; };
+		4CCBC3890AC34815A980F88C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_next.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_next.c; path = tif_next.c; sourceTree = SOURCE_ROOT; };
+		64D3987756B7475381A24239 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_print.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_print.c; path = tif_print.c; sourceTree = SOURCE_ROOT; };
+		66EE10F6F48441E1BF3FD52B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffio.h; path = tiffio.h; sourceTree = SOURCE_ROOT; };
+		670D1271FCCA4D239BDE6492 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_ojpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_ojpeg.c; path = tif_ojpeg.c; sourceTree = SOURCE_ROOT; };
+		697A77C517634E1FA469AC9A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_luv.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_luv.c; path = tif_luv.c; sourceTree = SOURCE_ROOT; };
+		697A832533254DA68A0B9E67 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirwrite.c; path = tif_dirwrite.c; sourceTree = SOURCE_ROOT; };
+		6C27E36069F843E7A9888CAD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dirinfo.c; path = tif_dirinfo.c; sourceTree = SOURCE_ROOT; };
+		749C72FAC7BE4315B49E2FB9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiff.h; path = tiff.h; sourceTree = SOURCE_ROOT; };
+		79D67F5389E7490B8CB2E5D2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_compress.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_compress.c; path = tif_compress.c; sourceTree = SOURCE_ROOT; };
+		808E74E2B1534AE9A421B4AB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_error.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_error.c; path = tif_error.c; sourceTree = SOURCE_ROOT; };
+		844D38E136984B95A22B719F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_read.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_read.c; path = tif_read.c; sourceTree = SOURCE_ROOT; };
+		85A71C2856E2462389C052C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_write.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_write.c; path = tif_write.c; sourceTree = SOURCE_ROOT; };
+		97F4BA9DAC7D4D45A2AED6A1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dumpmode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dumpmode.c; path = tif_dumpmode.c; sourceTree = SOURCE_ROOT; };
+		9850D5BD848F4F449B053E1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_fax3.h; path = tif_fax3.h; sourceTree = SOURCE_ROOT; };
+		A2E951FE20A1421DA259F12B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_dir.c; path = tif_dir.c; sourceTree = SOURCE_ROOT; };
+		A96F2AC858B54D92A1C28F3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/uvcode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uvcode.h; path = uvcode.h; sourceTree = SOURCE_ROOT; };
+		AB852B1143A54CDCA5BEF1C1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_version.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_version.c; path = tif_version.c; sourceTree = SOURCE_ROOT; };
+		AFA6702D4CDA42E5A8C791EA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_tile.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_tile.c; path = tif_tile.c; sourceTree = SOURCE_ROOT; };
+		B165578B063C4F78AFD490D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_swab.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_swab.c; path = tif_swab.c; sourceTree = SOURCE_ROOT; };
+		B7913E232EFE413AA3B272D0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_pixarlog.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_pixarlog.c; path = tif_pixarlog.c; sourceTree = SOURCE_ROOT; };
+		B7DE2916BA42418A82FB5984 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_color.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_color.c; path = tif_color.c; sourceTree = SOURCE_ROOT; };
+		BC922E9B428241E1A0659B0F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tif_config.h; path = tif_config.h; sourceTree = SOURCE_ROOT; };
+		C58406555D594D1CA6D289B4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_thunder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_thunder.c; path = tif_thunder.c; sourceTree = SOURCE_ROOT; };
+		CA6ACFF77EBD40659A740DEB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jbig.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jbig.c; path = tif_jbig.c; sourceTree = SOURCE_ROOT; };
+		CCF24425E2CB45FFB19DD972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_packbits.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_packbits.c; path = tif_packbits.c; sourceTree = SOURCE_ROOT; };
+		CD6832F5808844819832CE88 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_getimage.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_getimage.c; path = tif_getimage.c; sourceTree = SOURCE_ROOT; };
+		D19AF5D3649E42159F5F7398 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jpeg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_jpeg.c; path = tif_jpeg.c; sourceTree = SOURCE_ROOT; };
+		D3A91D959C394AE88E019C9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3.c; path = tif_fax3.c; sourceTree = SOURCE_ROOT; };
+		D9E3C5BA89854F018641AB1C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E045D3BD985E4A5986016222 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_extension.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_extension.c; path = tif_extension.c; sourceTree = SOURCE_ROOT; };
+		E215D5F5C2014FA39D023132 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffiop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tiffiop.h; path = tiffiop.h; sourceTree = SOURCE_ROOT; };
+		E3124C5EADD145F780A97CDA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/t4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t4.h; path = t4.h; sourceTree = SOURCE_ROOT; };
+		EFE48D78BBCA42F08F362741 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3sm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_fax3sm.c; path = tif_fax3sm.c; sourceTree = SOURCE_ROOT; };
+		F4069BD12E46496CB4534192 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_stream.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tif_stream.cxx; path = tif_stream.cxx; sourceTree = SOURCE_ROOT; };
+		F59460223F364A5FA5E28929 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_zip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tif_zip.c; path = tif_zip.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B6D467AF6784BF79C39357A = {
+			isa = PBXGroup;
+			children = (
+				18A2B8801E2540C9A479CCBC /* 00.Libs */,
+				9C4552D3DE404D1E8405196B /* ALL_BUILD */,
+				BA18474A8DFD4A6284836CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A2B8801E2540C9A479CCBC /* 00.Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3AD5E70094C14E2CAF87D55D /* LibTiff */,
+			);
+			name = 00.Libs;
+			sourceTree = "<group>";
+		};
+		2B3E875EF80C4A11A1FDEB79 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3AD5E70094C14E2CAF87D55D /* LibTiff */ = {
+			isa = PBXGroup;
+			children = (
+				A76DB0C2583D4B0ABD3C9D91 /* Source Files */,
+				B3A048AE2C0344888516D6BA /* Header Files */,
+				0A66B7D0249C4233894C2F10 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */,
+			);
+			name = LibTiff;
+			sourceTree = "<group>";
+		};
+		9C4552D3DE404D1E8405196B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2B3E875EF80C4A11A1FDEB79 /* CMake Rules */,
+				D9E3C5BA89854F018641AB1C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A76DB0C2583D4B0ABD3C9D91 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				11664625F46B41348603C667 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_aux.c */,
+				04FE95D3A83D41AAB86286D6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_close.c */,
+				2651DA5CF67D476997CAF647 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_codec.c */,
+				B7DE2916BA42418A82FB5984 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_color.c */,
+				79D67F5389E7490B8CB2E5D2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_compress.c */,
+				A2E951FE20A1421DA259F12B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.c */,
+				6C27E36069F843E7A9888CAD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirinfo.c */,
+				3DD33C65810F460E8F8F7CA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirread.c */,
+				697A832533254DA68A0B9E67 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirwrite.c */,
+				97F4BA9DAC7D4D45A2AED6A1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dumpmode.c */,
+				808E74E2B1534AE9A421B4AB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_error.c */,
+				E045D3BD985E4A5986016222 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_extension.c */,
+				D3A91D959C394AE88E019C9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.c */,
+				EFE48D78BBCA42F08F362741 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3sm.c */,
+				03FC4806EBDE484786D109FE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_flush.c */,
+				CD6832F5808844819832CE88 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_getimage.c */,
+				CA6ACFF77EBD40659A740DEB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jbig.c */,
+				D19AF5D3649E42159F5F7398 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jpeg.c */,
+				697A77C517634E1FA469AC9A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_luv.c */,
+				0886BB586A8F48FFB137FF08 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_lzw.c */,
+				4CCBC3890AC34815A980F88C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_next.c */,
+				670D1271FCCA4D239BDE6492 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_ojpeg.c */,
+				01D87CE6EAD84A2C8C757DA7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_open.c */,
+				CCF24425E2CB45FFB19DD972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_packbits.c */,
+				B7913E232EFE413AA3B272D0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_pixarlog.c */,
+				1D784FBC9BBA42A589CF77B2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.c */,
+				64D3987756B7475381A24239 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_print.c */,
+				844D38E136984B95A22B719F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_read.c */,
+				F4069BD12E46496CB4534192 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_stream.cxx */,
+				49A0984DE97B4CC4AD7017A7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_strip.c */,
+				B165578B063C4F78AFD490D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_swab.c */,
+				C58406555D594D1CA6D289B4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_thunder.c */,
+				AFA6702D4CDA42E5A8C791EA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_tile.c */,
+				25319EC1D77547CBA334CFD3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_unix.c */,
+				AB852B1143A54CDCA5BEF1C1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_version.c */,
+				46E655CE6AA34B13845B43CD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_warning.c */,
+				85A71C2856E2462389C052C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_write.c */,
+				F59460223F364A5FA5E28929 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_zip.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B3A048AE2C0344888516D6BA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3124C5EADD145F780A97CDA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/t4.h */,
+				BC922E9B428241E1A0659B0F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_config.h */,
+				02C684BAF7E94D53A5F37DF2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.h */,
+				9850D5BD848F4F449B053E1E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.h */,
+				256623F3EF1947678FE4C3D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.h */,
+				749C72FAC7BE4315B49E2FB9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiff.h */,
+				399AD6E1A88D4C9080D9D65E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffconf.h */,
+				66EE10F6F48441E1BF3FD52B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.h */,
+				2EC958E8E6734F5D956C4F96 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffio.hxx */,
+				E215D5F5C2014FA39D023132 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffiop.h */,
+				40F97AAB92EC45CA96FA17D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tiffvers.h */,
+				A96F2AC858B54D92A1C28F3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/uvcode.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BA18474A8DFD4A6284836CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D0B4E24D294A13B2B380E7 /* LibTiff */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602B544B5E094C23AB83B23F /* LibTiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C37964A22574BF49674593B /* Build configuration list for PBXNativeTarget "LibTiff" */;
+			buildPhases = (
+				454B0429B4E6464FB3596C42 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199D22CEB4834CAC9FFECF70 /* PBXTargetDependency */,
+			);
+			name = LibTiff;
+			productName = LibTiff;
+			productReference = 34D0B4E24D294A13B2B380E7 /* LibTiff */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CB5BE742534C80AA89131A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = DE2B28B4D553450C84D74714 /* Build configuration list for PBXProject "LibTiff" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D333BB5D59F44BDFA0F4444B /* Debug */,
+				2D2A31A02A6C4DD8A8FE749C /* Release */,
+				0A1F044BD02D43128D0E1A7E /* MinSizeRel */,
+				1E41736B17DD499B8F888919 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0B6D467AF6784BF79C39357A;
+			projectDirPath = "../../../../libs/PDF-Writer/LibTiff";
+			projectRoot = "";
+			targets = (
+				4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */,
+				602B544B5E094C23AB83B23F /* LibTiff */,
+				F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */,
+				F80354C67B08413F8CA82E56 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF0DF6C17284B6FA1D436F9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		69AFFB7C3EAC4C40BB8065A0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6E0D5A3A2ED3429988E169FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		77985A21BFFE4A289174A91D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B7C2424A9420438188545977 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D8575CD8261A44BEA6CF69EF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454B0429B4E6464FB3596C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F5E73806DA4B2BBEC92587 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_aux.c */,
+				FF6728FF7C624F1DA6163D77 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_close.c */,
+				B198D576A21B4E63A29F13D4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_codec.c */,
+				CBC03B44B29A4708B4E81D77 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_color.c */,
+				D2ECF841B8914C658944F0ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_compress.c */,
+				1D5C8E5300D44B4E965DA1C0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dir.c */,
+				ACE2BD4247784F48ABF9C4ED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirinfo.c */,
+				CC808E2210584234AC2EBB41 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirread.c */,
+				6F6C647C4CB04EF5AA6F3E1F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dirwrite.c */,
+				57C6A3045FEC476A8E210A7E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_dumpmode.c */,
+				FEFC43C7CEE44FE8B286B31B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_error.c */,
+				FCCCF4B53E924BDDAB748D47 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_extension.c */,
+				99CA9B69DAA14623A7711BB7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3.c */,
+				FEC1CDEE8EBC429B83CA011C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_fax3sm.c */,
+				BE1BCCE38BB94EEE8D1C02BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_flush.c */,
+				47B79FE17AED49CABF94C0B3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_getimage.c */,
+				848CA36232174A5E8A7139E2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jbig.c */,
+				6B46B3CF7AEE428D87B6C0E1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_jpeg.c */,
+				9CEC7A4292F4448EB32A7CCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_luv.c */,
+				B13A6D7CD770413AA5AF1949 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_lzw.c */,
+				FD3139050CDC44448619D3D1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_next.c */,
+				3AA52C3D615A4F82BC8245F6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_ojpeg.c */,
+				0AB8C04A0FB441CC87B0FF7A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_open.c */,
+				9FCF2D5DD97F47E3B29BA881 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_packbits.c */,
+				E03FD498276B4019B49D6A71 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_pixarlog.c */,
+				AABE18DC079E402695A6A7F4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_predict.c */,
+				2198D650055444878EDA4C6E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_print.c */,
+				0A3A95B9A5B04DF9B8112ECA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_read.c */,
+				5965A919C4264B5ABAB654F7 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_stream.cxx */,
+				C2E0BB8C120B4D1DA4A839A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_strip.c */,
+				726AEA60E5344EED8E32A97E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_swab.c */,
+				EE9142318A424400A75E01B5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_thunder.c */,
+				80538DE70AF64A86B58571D8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_tile.c */,
+				6AF4C85232D04850B5246268 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_unix.c */,
+				19F4C19AB30947BE95D32706 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_version.c */,
+				C01D847CFE584BE2ACE8BC3F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_warning.c */,
+				C1FAC7E3CDA446199F67990F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_write.c */,
+				70406C67C32F4FB2A976C81A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/LibTiff/tif_zip.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199D22CEB4834CAC9FFECF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 141AF79234C74789B0786850 /* PBXContainerItemProxy */;
+		};
+		2376A0474E0545E884598A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 5AA9BB337FD24F1C87772C52 /* PBXContainerItemProxy */;
+		};
+		2CADA2945F2C42F595644175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */;
+			targetProxy = A5D8DF38E8FB46BFBE42D47D /* PBXContainerItemProxy */;
+		};
+		31A9D97E95984DF68BEC871D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602B544B5E094C23AB83B23F /* LibTiff */;
+			targetProxy = 888B3F5304F945E5AE454E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026A78D95B584A0ABF9CF5B2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0F0E574DB26046A6BCA7C892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_CRT_SECURE_NO_DEPRECATE=1'","'AVOID_WIN32_FILEIO=1'","'CHECK_JPEG_YCBCR_SUBSAMPLING=1'","'DEFAULT_EXTRASAMPLE_AS_ALPHA=1'","'STRIPCHOP_DEFAULT=TIFF_STRIPCHOP'","'STRIP_SIZE_DEFAULT=8192'","'PIXARLOG_SUPPORT=1'","'ZIP_SUPPORT=1'","'LOGLUV_SUPPORT=1'","'NEXT_SUPPORT=1'","'THUNDER_SUPPORT=1'","'LZW_SUPPORT=1'","'PACKBITS_SUPPORT=1'","'CCITT_SUPPORT=1'","'TIF_PLATFORM_CONSOLE=1'","'FILLODER_LSB2MSB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/ZLib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     -DNDEBUG -g  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibTiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		12788D15592F4A6CB9276D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/build";
+			};
+			name = Release;
+		};
+		1898D56FA73F43BABF9666B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1966189DDDBE4E4CB2ECA61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2B261E2C55BA40B99729195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4AE7E4A9490B49DCA24BA169 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BB9BB75A2F242B8B4031255 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6259BEF609B84BDF9A4F1CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		677D80952AD442E8937537FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81F01A539FA147608802A58B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/build";
+			};
+			name = MinSizeRel;
+		};
+		89AE9A7DC5E14CB0B66ADDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		916C30FB6F22439C9FEDC69E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_CRT_SECURE_NO_DEPRECATE=1'","'AVOID_WIN32_FILEIO=1'","'CHECK_JPEG_YCBCR_SUBSAMPLING=1'","'DEFAULT_EXTRASAMPLE_AS_ALPHA=1'","'STRIPCHOP_DEFAULT=TIFF_STRIPCHOP'","'STRIP_SIZE_DEFAULT=8192'","'PIXARLOG_SUPPORT=1'","'ZIP_SUPPORT=1'","'LOGLUV_SUPPORT=1'","'NEXT_SUPPORT=1'","'THUNDER_SUPPORT=1'","'LZW_SUPPORT=1'","'PACKBITS_SUPPORT=1'","'CCITT_SUPPORT=1'","'TIF_PLATFORM_CONSOLE=1'","'FILLODER_LSB2MSB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/ZLib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibTiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B0E503D521CE4B1C879F95D8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B50EDE7D87F64671801783E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/build";
+			};
+			name = Debug;
+		};
+		DCFEF091704749F0B6ABBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EA55FAA31B2943C8BA8C1159 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_CRT_SECURE_NO_DEPRECATE=1'","'AVOID_WIN32_FILEIO=1'","'CHECK_JPEG_YCBCR_SUBSAMPLING=1'","'DEFAULT_EXTRASAMPLE_AS_ALPHA=1'","'STRIPCHOP_DEFAULT=TIFF_STRIPCHOP'","'STRIP_SIZE_DEFAULT=8192'","'PIXARLOG_SUPPORT=1'","'ZIP_SUPPORT=1'","'LOGLUV_SUPPORT=1'","'NEXT_SUPPORT=1'","'THUNDER_SUPPORT=1'","'LZW_SUPPORT=1'","'PACKBITS_SUPPORT=1'","'CCITT_SUPPORT=1'","'TIF_PLATFORM_CONSOLE=1'","'FILLODER_LSB2MSB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/ZLib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     -DNDEBUG -g  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibTiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2D99591FACF46F0B9E936DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F47BB2018A024021B518A993 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F7612C666DDF4D908DD1F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'_CRT_SECURE_NO_DEPRECATE=1'","'AVOID_WIN32_FILEIO=1'","'CHECK_JPEG_YCBCR_SUBSAMPLING=1'","'DEFAULT_EXTRASAMPLE_AS_ALPHA=1'","'STRIPCHOP_DEFAULT=TIFF_STRIPCHOP'","'STRIP_SIZE_DEFAULT=8192'","'PIXARLOG_SUPPORT=1'","'ZIP_SUPPORT=1'","'LOGLUV_SUPPORT=1'","'NEXT_SUPPORT=1'","'THUNDER_SUPPORT=1'","'LZW_SUPPORT=1'","'PACKBITS_SUPPORT=1'","'CCITT_SUPPORT=1'","'TIF_PLATFORM_CONSOLE=1'","'FILLODER_LSB2MSB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/PDF-Writer/ZLib");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++1z -fexceptions    -Wall     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LibTiff;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/PDF-Writer/LibTiff";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B35529C617D4A809204AFE2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6259BEF609B84BDF9A4F1CD6 /* Debug */,
+				89AE9A7DC5E14CB0B66ADDD1 /* Release */,
+				1898D56FA73F43BABF9666B8 /* MinSizeRel */,
+				4AE7E4A9490B49DCA24BA169 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		756BEE89EE5C460E945F3C1F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFEF091704749F0B6ABBFFE /* Debug */,
+				F2D99591FACF46F0B9E936DD /* Release */,
+				B0E503D521CE4B1C879F95D8 /* MinSizeRel */,
+				677D80952AD442E8937537FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C37964A22574BF49674593B /* Build configuration list for PBXNativeTarget "LibTiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7612C666DDF4D908DD1F82A /* Debug */,
+				0F0E574DB26046A6BCA7C892 /* Release */,
+				EA55FAA31B2943C8BA8C1159 /* MinSizeRel */,
+				916C30FB6F22439C9FEDC69E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8768734440044618C5FA295 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1966189DDDBE4E4CB2ECA61B /* Debug */,
+				2B261E2C55BA40B99729195E /* Release */,
+				4BB9BB75A2F242B8B4031255 /* MinSizeRel */,
+				026A78D95B584A0ABF9CF5B2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE2B28B4D553450C84D74714 /* Build configuration list for PBXProject "LibTiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50EDE7D87F64671801783E3 /* Debug */,
+				12788D15592F4A6CB9276D29 /* Release */,
+				81F01A539FA147608802A58B /* MinSizeRel */,
+				F47BB2018A024021B518A993 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CB5BE742534C80AA89131A /* Project object */;
+}

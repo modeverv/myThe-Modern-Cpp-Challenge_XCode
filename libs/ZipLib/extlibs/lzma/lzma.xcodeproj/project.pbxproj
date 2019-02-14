@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CFABC8BFC84648F0B3196384 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				581443D1AB9548DC8EAD9B24 /* CMake Rules */,
+			);
+			dependencies = (
+				BF46ABEBB84E4CDBA4970E4D /* PBXTargetDependency */,
+				06C2896DCC13404492D89AB0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10D36A78923D46FAB982A939 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BA09B189B8944279A33AF07F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F80354C67B08413F8CA82E56 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ECD4AC307EB0471E86841038 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				77119B3FCDC2404E86420338 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9D0FA5E5F4624DD6B190B98D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		003AF0D48B5942BD87902AC1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.h */ = {isa = PBXBuildFile; fileRef = 210E3FD13205495D9EDEA65A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.h */; };
+		07F32AAA3EE04D41AECEDF01 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Enc.c */ = {isa = PBXBuildFile; fileRef = A28F09765302411DBFA8C3BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Enc.c */; };
+		0883999251A740A5A4969A89 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzDec.c */ = {isa = PBXBuildFile; fileRef = DCD834E96A294E30BC0C93C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzDec.c */; };
+		0FC48C073ACC45C1AB16FC0E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.h */ = {isa = PBXBuildFile; fileRef = 57F7AC8D41F44A60A57E2FCA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.h */; };
+		113922D7F57F40B7A6811FE5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Enc.c */ = {isa = PBXBuildFile; fileRef = ED77F9BC0CD44C75BD92178D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Enc.c */; };
+		1AC641D0596946578E443277 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.h */ = {isa = PBXBuildFile; fileRef = 4434BDDA1B3A462B93B56D9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.h */; };
+		233FB239D4114157B6066A3C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.c */ = {isa = PBXBuildFile; fileRef = 3219F79BBF34455CAEF0956E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.c */; };
+		2FDAE5181BB64EB0A36D8BB8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.h */ = {isa = PBXBuildFile; fileRef = B6F792C366914C48A178D7C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.h */; };
+		36FC2C1EF9C34B1F93DD1375 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.c */ = {isa = PBXBuildFile; fileRef = F235482F8E674BC781A239C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.c */; };
+		3829832077D1449AA8E88BD6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.c */ = {isa = PBXBuildFile; fileRef = 7E251CA0BB984F7CB633D193 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.c */; };
+		3A2DACFF06674A69954112DA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.h */ = {isa = PBXBuildFile; fileRef = 5DA939F828E84EA8BAB6DA7F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.h */; };
+		3C4051C6809D4BEFB394CDE2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.h */ = {isa = PBXBuildFile; fileRef = 85CD8DE6483440709BD35810 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.h */; };
+		3F95557F7E3043E3A4A8BC4B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.c */ = {isa = PBXBuildFile; fileRef = 0C1426765D484B4094EA5C80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.c */; };
+		42E4CEDFD3C84D33AE3D8717 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.c */ = {isa = PBXBuildFile; fileRef = 2E8F2ED16BDC443DAAEDA860 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.c */; };
+		44D7FCAEE4664D8C8A80E719 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzIn.c */ = {isa = PBXBuildFile; fileRef = EC1A47D9E4A740D2B819D17B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzIn.c */; };
+		4618DF408673479DA0A300DD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E6F4E5A912EF4CD6A55CAFE2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */; };
+		4A9DA3E49D524B7E8534D6EE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.h */ = {isa = PBXBuildFile; fileRef = A5A883B4DFC64701A28D657D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.h */; };
+		5010B43EF27F4538B4983AC8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.c */ = {isa = PBXBuildFile; fileRef = D2B8AFB0B05940C495D91C78 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.c */; };
+		5349A7A5B4484346827CFB98 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.h */ = {isa = PBXBuildFile; fileRef = AE4C8621815E495693E340DA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.h */; };
+		557F6CD50093481E99037854 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.h */ = {isa = PBXBuildFile; fileRef = F4B38F25B07E4F1ABFA62CF5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.h */; };
+		5A31709B0DC14E46BCE29DDF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf.h */ = {isa = PBXBuildFile; fileRef = DB01A1A74BD84A2EB82F0A7A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf.h */; };
+		5D47E808D29B4F21B9B8930E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.c */ = {isa = PBXBuildFile; fileRef = 21A20287F72842DD86741173 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.c */; };
+		627E2B6EE6904E9CB0A5910E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.h */ = {isa = PBXBuildFile; fileRef = AC4C800E5E4E4069B09C030E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.h */; };
+		62F4444D7DA145DEA4C5FEC1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzHash.h */ = {isa = PBXBuildFile; fileRef = 7889B3231CD54A6BB10F053D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzHash.h */; };
+		690739A5543649A3989F23C9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.c */ = {isa = PBXBuildFile; fileRef = 0BB72B03E9C44211B93954C6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.c */; };
+		6A723C2341D244CBB7BEE2A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.c */ = {isa = PBXBuildFile; fileRef = 6ED061D4CABD4E83B5CF9E80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.c */; };
+		6DA08EFEC31A49B29F341916 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra86.c */ = {isa = PBXBuildFile; fileRef = 997A78F4B4A242C2A5FFD2FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra86.c */; };
+		6E5F340BD02F44B385702925 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Dec.c */ = {isa = PBXBuildFile; fileRef = D70E90516B0B4148A343CA31 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Dec.c */; };
+		6F8F5DF84D104CA7ACD10210 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.h */ = {isa = PBXBuildFile; fileRef = 02CA0073EEEB4F0784FAA0CE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.h */; };
+		703749FC017F4C98908D1978 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.c */ = {isa = PBXBuildFile; fileRef = 05F739A8BD4D49D990C8EBE0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.c */; };
+		78D7C2509F124F2BB02291AE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BraIA64.c */ = {isa = PBXBuildFile; fileRef = 08BC62670A924C42B2C9FBA1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BraIA64.c */; };
+		7D92275A2FBA413BAA455B7C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.h */ = {isa = PBXBuildFile; fileRef = 62DC84484B3D4D07B8DE1B37 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.h */; };
+		84C35C27AD4E4274A31C7A8C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.c */ = {isa = PBXBuildFile; fileRef = C41C0D910FB942F38BC89F9E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.c */; };
+		883048A8C7954FB798E45B93 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.h */ = {isa = PBXBuildFile; fileRef = A6F39BA3B256409BA48DAD1A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.h */; };
+		8B3821D835FA41A2A8D6CA1B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.c */ = {isa = PBXBuildFile; fileRef = BC7EBC4874EB4F9F824B21A6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.c */; };
+		905212D5CDBE48719B341F81 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.h */ = {isa = PBXBuildFile; fileRef = 0A17C754D7EF4B3A98F85E75 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.h */; };
+		9D2F884BD73241C8A03D1EED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrcOpt.c */ = {isa = PBXBuildFile; fileRef = DC267BEA983E4C6B978B5799 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrcOpt.c */; };
+		9E05F5A63A314D1F9B3A70DC /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.h */ = {isa = PBXBuildFile; fileRef = D2AB3F441E89431AAEF6DB5A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.h */; };
+		A0AF41E4D2094121A3AC773E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.c */ = {isa = PBXBuildFile; fileRef = E6BEDE5A6F744FAAA9241A9C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.c */; };
+		A10A20E4DD5A4C8598109F81 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zVersion.h */ = {isa = PBXBuildFile; fileRef = 34C853DDAE61425D9D3D9DBB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zVersion.h */; };
+		A4761DB9FFDC4C9C855A7F25 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.h */ = {isa = PBXBuildFile; fileRef = 603D17B57BDA46B3ACDBEB51 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.h */; };
+		A759261F859A450FB2EC5804 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.c */ = {isa = PBXBuildFile; fileRef = ABB9115678EA4E67B82F9B5E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.c */; };
+		A88A884FC87C45F28BB82BCD /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.h */ = {isa = PBXBuildFile; fileRef = 0863E4B3A52F4217872E1726 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.h */; };
+		ACEB3F0C924A4935A003A3E4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Types.h */ = {isa = PBXBuildFile; fileRef = 909FC4F685764A2CAA3E0F8D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Types.h */; };
+		ADDF39E306404AD7B6D14477 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.h */ = {isa = PBXBuildFile; fileRef = B31C689D216F4642B92A32F1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.h */; };
+		AE8D5703AC144234B8044E34 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.h */ = {isa = PBXBuildFile; fileRef = DC4AA34958824538BA40D89B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.h */; };
+		BBEAF271E4574A5688D4F3AA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf2.c */ = {isa = PBXBuildFile; fileRef = 82271D65095B4F63A8E61877 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf2.c */; };
+		C362498CD4B2433E809F6691 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.c */ = {isa = PBXBuildFile; fileRef = CE7D9808366749C2B4B799DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.c */; };
+		D1041FD58E49452F9A9E6FB8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd.h */ = {isa = PBXBuildFile; fileRef = 5E0D1E9B389D40B3AC5B645C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd.h */; };
+		D142B9EDBEBF48E6B775D21D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.h */ = {isa = PBXBuildFile; fileRef = 50A418957E8B4A7CB1842C54 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.h */; };
+		D34070E1E40E450189BA2707 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.c */ = {isa = PBXBuildFile; fileRef = 43302738809E412A97EA9972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.c */; };
+		D962273FB277484BB89F17A4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.c */ = {isa = PBXBuildFile; fileRef = 6649FD9F91A74804A4C3FFB5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.c */; };
+		DAA2C9B299794EEB8E43AF0D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.h */ = {isa = PBXBuildFile; fileRef = 92E1D55C7BE447DA880270FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.h */; };
+		E35AD154AED5435399AAC733 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Dec.c */ = {isa = PBXBuildFile; fileRef = 425317BCEC8840B1B1954C7B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Dec.c */; };
+		E47A21CDF6E34615803121C4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.c */ = {isa = PBXBuildFile; fileRef = 826D99E4FFA74084A04AFEA4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.c */; };
+		E550BBB32A3D4FACBD483F9C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.c */ = {isa = PBXBuildFile; fileRef = 4E27D7DE1CB9484F9E9B6098 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.c */; };
+		EE17308322CC4B52B64C1767 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.c */ = {isa = PBXBuildFile; fileRef = 1062F68FB5DD4CCAB2132BCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.c */; };
+		EE19F3FC4D5549FFA85373A9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.c */ = {isa = PBXBuildFile; fileRef = 1A52C340AE0648F688D5C29A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.c */; };
+		F2A75BC189804BEB87538509 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.h */ = {isa = PBXBuildFile; fileRef = D4C2143A38B24B0DB920DCAB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.h */; };
+		F5E576545A7F46EBAD937664 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/RotateDefs.h */ = {isa = PBXBuildFile; fileRef = AD366974FC884C6F8E574295 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/RotateDefs.h */; };
+		F7C9E7AC799A49A4B6950034 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.h */ = {isa = PBXBuildFile; fileRef = D35F2237617F45929EAFDCCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.h */; };
+		F95E621CC123457D88251D6A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zStream.c */ = {isa = PBXBuildFile; fileRef = 6074008412C44443AC489507 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zStream.c */; };
+		FC72958181FC46AFB0705571 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.c */ = {isa = PBXBuildFile; fileRef = 49931293B7444A9BB920452B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.c */; };
+		FDD5D0ADBB504AFF9CAFDED0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.c */ = {isa = PBXBuildFile; fileRef = 573E34B81770407D971DEBE9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		08DE0EFF6A7541EDB6EA6E22 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		1EACD7C15D3245E8A8006D02 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CC499AF18B244CDFA67AABB4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E782A512EEB1468F839563D2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		263F57F472F74D39BC3859A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3268BFC9399B4279A6BEE7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78679B80DD6743B7A3370678;
+			remoteInfo = lzma;
+		};
+		89CBF36BF5CF4C6DA9EA2732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3268BFC9399B4279A6BEE7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		A1334FFC1213453FBE8CF4E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3268BFC9399B4279A6BEE7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEBDE935A5E4FA780A72DFF;
+			remoteInfo = ALL_BUILD;
+		};
+		C2543DD3880D4915A6014017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3268BFC9399B4279A6BEE7C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754A75ACA9B44E788C2C0DE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0098F95C6466412EBBC07776 /* lzma */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblzma.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CA0073EEEB4F0784FAA0CE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = BwtSort.h; path = unix/BwtSort.h; sourceTree = SOURCE_ROOT; };
+		05F739A8BD4D49D990C8EBE0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Sort.c; path = unix/Sort.c; sourceTree = SOURCE_ROOT; };
+		0863E4B3A52F4217872E1726 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = 7zCrc.h; path = unix/7zCrc.h; sourceTree = SOURCE_ROOT; };
+		08BC62670A924C42B2C9FBA1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BraIA64.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = BraIA64.c; path = unix/BraIA64.c; sourceTree = SOURCE_ROOT; };
+		0A17C754D7EF4B3A98F85E75 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XzCrc64.h; path = unix/XzCrc64.h; sourceTree = SOURCE_ROOT; };
+		0BB72B03E9C44211B93954C6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = MtCoder.c; path = unix/MtCoder.c; sourceTree = SOURCE_ROOT; };
+		0BD3419355064F14B150C68A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0C1426765D484B4094EA5C80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = LzFindMt.c; path = unix/LzFindMt.c; sourceTree = SOURCE_ROOT; };
+		1062F68FB5DD4CCAB2132BCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Lzma2Dec.c; path = unix/Lzma2Dec.c; sourceTree = SOURCE_ROOT; };
+		1A52C340AE0648F688D5C29A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = CpuArch.c; path = unix/CpuArch.c; sourceTree = SOURCE_ROOT; };
+		210E3FD13205495D9EDEA65A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Alloc.h; path = unix/Alloc.h; sourceTree = SOURCE_ROOT; };
+		21A20287F72842DD86741173 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = LzmaDec.c; path = unix/LzmaDec.c; sourceTree = SOURCE_ROOT; };
+		2E8F2ED16BDC443DAAEDA860 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = BwtSort.c; path = unix/BwtSort.c; sourceTree = SOURCE_ROOT; };
+		3219F79BBF34455CAEF0956E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd8.c; path = unix/Ppmd8.c; sourceTree = SOURCE_ROOT; };
+		34C853DDAE61425D9D3D9DBB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = 7zVersion.h; path = unix/7zVersion.h; sourceTree = SOURCE_ROOT; };
+		425317BCEC8840B1B1954C7B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd8Dec.c; path = unix/Ppmd8Dec.c; sourceTree = SOURCE_ROOT; };
+		43302738809E412A97EA9972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Xz.c; path = unix/Xz.c; sourceTree = SOURCE_ROOT; };
+		4434BDDA1B3A462B93B56D9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Delta.h; path = unix/Delta.h; sourceTree = SOURCE_ROOT; };
+		49931293B7444A9BB920452B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = XzCrc64.c; path = unix/XzCrc64.c; sourceTree = SOURCE_ROOT; };
+		4E27D7DE1CB9484F9E9B6098 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = HuffEnc.c; path = unix/HuffEnc.c; sourceTree = SOURCE_ROOT; };
+		50A418957E8B4A7CB1842C54 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LzFindMt.h; path = unix/LzFindMt.h; sourceTree = SOURCE_ROOT; };
+		573E34B81770407D971DEBE9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Delta.c; path = unix/Delta.c; sourceTree = SOURCE_ROOT; };
+		57F7AC8D41F44A60A57E2FCA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = XzEnc.h; path = unix/XzEnc.h; sourceTree = SOURCE_ROOT; };
+		5DA939F828E84EA8BAB6DA7F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sha256.h; path = unix/Sha256.h; sourceTree = SOURCE_ROOT; };
+		5E0D1E9B389D40B3AC5B645C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ppmd.h; path = unix/Ppmd.h; sourceTree = SOURCE_ROOT; };
+		603D17B57BDA46B3ACDBEB51 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Xz.h; path = unix/Xz.h; sourceTree = SOURCE_ROOT; };
+		6074008412C44443AC489507 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zStream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = 7zStream.c; path = unix/7zStream.c; sourceTree = SOURCE_ROOT; };
+		62DC84484B3D4D07B8DE1B37 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lzma2Enc.h; path = unix/Lzma2Enc.h; sourceTree = SOURCE_ROOT; };
+		6649FD9F91A74804A4C3FFB5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = LzFind.c; path = unix/LzFind.c; sourceTree = SOURCE_ROOT; };
+		6ED061D4CABD4E83B5CF9E80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Lzma2Enc.c; path = unix/Lzma2Enc.c; sourceTree = SOURCE_ROOT; };
+		7889B3231CD54A6BB10F053D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LzHash.h; path = unix/LzHash.h; sourceTree = SOURCE_ROOT; };
+		7E251CA0BB984F7CB633D193 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd7.c; path = unix/Ppmd7.c; sourceTree = SOURCE_ROOT; };
+		82271D65095B4F63A8E61877 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = 7zBuf2.c; path = unix/7zBuf2.c; sourceTree = SOURCE_ROOT; };
+		826D99E4FFA74084A04AFEA4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Alloc.c; path = unix/Alloc.c; sourceTree = SOURCE_ROOT; };
+		85CD8DE6483440709BD35810 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HuffEnc.h; path = unix/HuffEnc.h; sourceTree = SOURCE_ROOT; };
+		909FC4F685764A2CAA3E0F8D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Types.h; path = unix/Types.h; sourceTree = SOURCE_ROOT; };
+		92E1D55C7BE447DA880270FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LzmaDec.h; path = unix/LzmaDec.h; sourceTree = SOURCE_ROOT; };
+		997A78F4B4A242C2A5FFD2FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra86.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Bra86.c; path = unix/Bra86.c; sourceTree = SOURCE_ROOT; };
+		A28F09765302411DBFA8C3BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd7Enc.c; path = unix/Ppmd7Enc.c; sourceTree = SOURCE_ROOT; };
+		A5A883B4DFC64701A28D657D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LzmaEnc.h; path = unix/LzmaEnc.h; sourceTree = SOURCE_ROOT; };
+		A6F39BA3B256409BA48DAD1A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = LzFind.h; path = unix/LzFind.h; sourceTree = SOURCE_ROOT; };
+		ABB9115678EA4E67B82F9B5E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Bra.c; path = unix/Bra.c; sourceTree = SOURCE_ROOT; };
+		AC4C800E5E4E4069B09C030E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MtCoder.h; path = unix/MtCoder.h; sourceTree = SOURCE_ROOT; };
+		AD366974FC884C6F8E574295 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/RotateDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RotateDefs.h; path = unix/RotateDefs.h; sourceTree = SOURCE_ROOT; };
+		AE4C8621815E495693E340DA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CpuArch.h; path = unix/CpuArch.h; sourceTree = SOURCE_ROOT; };
+		B31C689D216F4642B92A32F1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ppmd7.h; path = unix/Ppmd7.h; sourceTree = SOURCE_ROOT; };
+		B6F792C366914C48A178D7C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Aes.h; path = unix/Aes.h; sourceTree = SOURCE_ROOT; };
+		BC7EBC4874EB4F9F824B21A6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Aes.c; path = unix/Aes.c; sourceTree = SOURCE_ROOT; };
+		C41C0D910FB942F38BC89F9E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Threads.c; path = unix/Threads.c; sourceTree = SOURCE_ROOT; };
+		CE7D9808366749C2B4B799DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = LzmaEnc.c; path = unix/LzmaEnc.c; sourceTree = SOURCE_ROOT; };
+		D2AB3F441E89431AAEF6DB5A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Ppmd8.h; path = unix/Ppmd8.h; sourceTree = SOURCE_ROOT; };
+		D2B8AFB0B05940C495D91C78 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Sha256.c; path = unix/Sha256.c; sourceTree = SOURCE_ROOT; };
+		D35F2237617F45929EAFDCCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Bra.h; path = unix/Bra.h; sourceTree = SOURCE_ROOT; };
+		D4C2143A38B24B0DB920DCAB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Threads.h; path = unix/Threads.h; sourceTree = SOURCE_ROOT; };
+		D70E90516B0B4148A343CA31 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Dec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd7Dec.c; path = unix/Ppmd7Dec.c; sourceTree = SOURCE_ROOT; };
+		DB01A1A74BD84A2EB82F0A7A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = 7zBuf.h; path = unix/7zBuf.h; sourceTree = SOURCE_ROOT; };
+		DC267BEA983E4C6B978B5799 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrcOpt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = 7zCrcOpt.c; path = unix/7zCrcOpt.c; sourceTree = SOURCE_ROOT; };
+		DC4AA34958824538BA40D89B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sort.h; path = unix/Sort.h; sourceTree = SOURCE_ROOT; };
+		DCD834E96A294E30BC0C93C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzDec.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = XzDec.c; path = unix/XzDec.c; sourceTree = SOURCE_ROOT; };
+		E6BEDE5A6F744FAAA9241A9C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = 7zCrc.c; path = unix/7zCrc.c; sourceTree = SOURCE_ROOT; };
+		E6F4E5A912EF4CD6A55CAFE2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EC1A47D9E4A740D2B819D17B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzIn.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = XzIn.c; path = unix/XzIn.c; sourceTree = SOURCE_ROOT; };
+		ED77F9BC0CD44C75BD92178D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Enc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Ppmd8Enc.c; path = unix/Ppmd8Enc.c; sourceTree = SOURCE_ROOT; };
+		F235482F8E674BC781A239C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = XzEnc.c; path = unix/XzEnc.c; sourceTree = SOURCE_ROOT; };
+		F4B38F25B07E4F1ABFA62CF5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Lzma2Dec.h; path = unix/Lzma2Dec.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07D404245FF64EC79A572FDB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB01A1A74BD84A2EB82F0A7A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf.h */,
+				0863E4B3A52F4217872E1726 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.h */,
+				34C853DDAE61425D9D3D9DBB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zVersion.h */,
+				B6F792C366914C48A178D7C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.h */,
+				210E3FD13205495D9EDEA65A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.h */,
+				D35F2237617F45929EAFDCCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.h */,
+				02CA0073EEEB4F0784FAA0CE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.h */,
+				AE4C8621815E495693E340DA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.h */,
+				4434BDDA1B3A462B93B56D9D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.h */,
+				85CD8DE6483440709BD35810 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.h */,
+				A6F39BA3B256409BA48DAD1A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.h */,
+				50A418957E8B4A7CB1842C54 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.h */,
+				7889B3231CD54A6BB10F053D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzHash.h */,
+				F4B38F25B07E4F1ABFA62CF5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.h */,
+				62DC84484B3D4D07B8DE1B37 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.h */,
+				92E1D55C7BE447DA880270FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.h */,
+				A5A883B4DFC64701A28D657D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.h */,
+				AC4C800E5E4E4069B09C030E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.h */,
+				5E0D1E9B389D40B3AC5B645C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd.h */,
+				B31C689D216F4642B92A32F1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.h */,
+				D2AB3F441E89431AAEF6DB5A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.h */,
+				AD366974FC884C6F8E574295 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/RotateDefs.h */,
+				5DA939F828E84EA8BAB6DA7F /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.h */,
+				DC4AA34958824538BA40D89B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.h */,
+				D4C2143A38B24B0DB920DCAB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.h */,
+				909FC4F685764A2CAA3E0F8D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Types.h */,
+				603D17B57BDA46B3ACDBEB51 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.h */,
+				0A17C754D7EF4B3A98F85E75 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.h */,
+				57F7AC8D41F44A60A57E2FCA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		18D1F78DD1064354AA642457 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8179D364297A43919BA8FDA8 /* CMake Rules */,
+				0BD3419355064F14B150C68A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2C911DF079CE414A85373DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0098F95C6466412EBBC07776 /* lzma */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496D2FE9FEC444E495CAD1AC = {
+			isa = PBXGroup;
+			children = (
+				827951670F534B27A6133EC7 /* 00.Libs */,
+				18D1F78DD1064354AA642457 /* ALL_BUILD */,
+				2C911DF079CE414A85373DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3DDB77F1F748D180989522 /* lzma */ = {
+			isa = PBXGroup;
+			children = (
+				07D404245FF64EC79A572FDB /* Header Files */,
+				BCE0AF2ED9CC4058BD9E317C /* Source Files */,
+				E6F4E5A912EF4CD6A55CAFE2 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/CMakeLists.txt */,
+			);
+			name = lzma;
+			sourceTree = "<group>";
+		};
+		8179D364297A43919BA8FDA8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		827951670F534B27A6133EC7 /* 00.Libs */ = {
+			isa = PBXGroup;
+			children = (
+				5F3DDB77F1F748D180989522 /* lzma */,
+			);
+			name = 00.Libs;
+			sourceTree = "<group>";
+		};
+		BCE0AF2ED9CC4058BD9E317C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				82271D65095B4F63A8E61877 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf2.c */,
+				E6BEDE5A6F744FAAA9241A9C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.c */,
+				DC267BEA983E4C6B978B5799 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrcOpt.c */,
+				6074008412C44443AC489507 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zStream.c */,
+				BC7EBC4874EB4F9F824B21A6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.c */,
+				826D99E4FFA74084A04AFEA4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.c */,
+				ABB9115678EA4E67B82F9B5E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.c */,
+				997A78F4B4A242C2A5FFD2FB /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra86.c */,
+				08BC62670A924C42B2C9FBA1 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BraIA64.c */,
+				2E8F2ED16BDC443DAAEDA860 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.c */,
+				1A52C340AE0648F688D5C29A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.c */,
+				573E34B81770407D971DEBE9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.c */,
+				4E27D7DE1CB9484F9E9B6098 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.c */,
+				6649FD9F91A74804A4C3FFB5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.c */,
+				0C1426765D484B4094EA5C80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.c */,
+				1062F68FB5DD4CCAB2132BCE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.c */,
+				6ED061D4CABD4E83B5CF9E80 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.c */,
+				21A20287F72842DD86741173 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.c */,
+				CE7D9808366749C2B4B799DE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.c */,
+				0BB72B03E9C44211B93954C6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.c */,
+				7E251CA0BB984F7CB633D193 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.c */,
+				D70E90516B0B4148A343CA31 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Dec.c */,
+				A28F09765302411DBFA8C3BF /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Enc.c */,
+				3219F79BBF34455CAEF0956E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.c */,
+				425317BCEC8840B1B1954C7B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Dec.c */,
+				ED77F9BC0CD44C75BD92178D /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Enc.c */,
+				D2B8AFB0B05940C495D91C78 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.c */,
+				05F739A8BD4D49D990C8EBE0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.c */,
+				C41C0D910FB942F38BC89F9E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.c */,
+				43302738809E412A97EA9972 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.c */,
+				49931293B7444A9BB920452B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.c */,
+				DCD834E96A294E30BC0C93C5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzDec.c */,
+				F235482F8E674BC781A239C8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.c */,
+				EC1A47D9E4A740D2B819D17B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzIn.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78679B80DD6743B7A3370678 /* lzma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BE92627D4740D68E06D0D7 /* Build configuration list for PBXNativeTarget "lzma" */;
+			buildPhases = (
+				67940A7E123E4D26BE6C67C0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F38AE4346504D15A3133093 /* PBXTargetDependency */,
+			);
+			name = lzma;
+			productName = lzma;
+			productReference = 0098F95C6466412EBBC07776 /* lzma */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3268BFC9399B4279A6BEE7C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 6F5D5FEE70704EB6A1838B83 /* Build configuration list for PBXProject "lzma" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				08DE0EFF6A7541EDB6EA6E22 /* Debug */,
+				E782A512EEB1468F839563D2 /* Release */,
+				1EACD7C15D3245E8A8006D02 /* MinSizeRel */,
+				CC499AF18B244CDFA67AABB4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 496D2FE9FEC444E495CAD1AC;
+			projectDirPath = ../../../../../libs/ZipLib/extlibs/lzma;
+			projectRoot = "";
+			targets = (
+				4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */,
+				F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */,
+				F80354C67B08413F8CA82E56 /* install */,
+				78679B80DD6743B7A3370678 /* lzma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		369BEE0D06C54208873CC05A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		449C531FB6A545ADB1BB1083 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		581443D1AB9548DC8EAD9B24 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		77119B3FCDC2404E86420338 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		80E2A98AB5BC446BAC087B21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BA09B189B8944279A33AF07F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma -f /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67940A7E123E4D26BE6C67C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEAF271E4574A5688D4F3AA /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zBuf2.c */,
+				A0AF41E4D2094121A3AC773E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrc.c */,
+				9D2F884BD73241C8A03D1EED /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zCrcOpt.c */,
+				F95E621CC123457D88251D6A /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/7zStream.c */,
+				8B3821D835FA41A2A8D6CA1B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Aes.c */,
+				E47A21CDF6E34615803121C4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Alloc.c */,
+				A759261F859A450FB2EC5804 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra.c */,
+				6DA08EFEC31A49B29F341916 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Bra86.c */,
+				78D7C2509F124F2BB02291AE /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BraIA64.c */,
+				42E4CEDFD3C84D33AE3D8717 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/BwtSort.c */,
+				EE19F3FC4D5549FFA85373A9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/CpuArch.c */,
+				FDD5D0ADBB504AFF9CAFDED0 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Delta.c */,
+				E550BBB32A3D4FACBD483F9C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/HuffEnc.c */,
+				D962273FB277484BB89F17A4 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFind.c */,
+				3F95557F7E3043E3A4A8BC4B /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzFindMt.c */,
+				EE17308322CC4B52B64C1767 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Dec.c */,
+				6A723C2341D244CBB7BEE2A3 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Lzma2Enc.c */,
+				5D47E808D29B4F21B9B8930E /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaDec.c */,
+				C362498CD4B2433E809F6691 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/LzmaEnc.c */,
+				690739A5543649A3989F23C9 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/MtCoder.c */,
+				3829832077D1449AA8E88BD6 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7.c */,
+				6E5F340BD02F44B385702925 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Dec.c */,
+				07F32AAA3EE04D41AECEDF01 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd7Enc.c */,
+				233FB239D4114157B6066A3C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8.c */,
+				E35AD154AED5435399AAC733 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Dec.c */,
+				113922D7F57F40B7A6811FE5 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Ppmd8Enc.c */,
+				5010B43EF27F4538B4983AC8 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sha256.c */,
+				703749FC017F4C98908D1978 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Sort.c */,
+				84C35C27AD4E4274A31C7A8C /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Threads.c */,
+				D34070E1E40E450189BA2707 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/Xz.c */,
+				FC72958181FC46AFB0705571 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzCrc64.c */,
+				0883999251A740A5A4969A89 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzDec.c */,
+				36FC2C1EF9C34B1F93DD1375 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzEnc.c */,
+				44D7FCAEE4664D8C8A80E719 /* /Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/libs/ZipLib/extlibs/lzma/unix/XzIn.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C2896DCC13404492D89AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78679B80DD6743B7A3370678 /* lzma */;
+			targetProxy = 263F57F472F74D39BC3859A1 /* PBXContainerItemProxy */;
+		};
+		9D0FA5E5F4624DD6B190B98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CEBDE935A5E4FA780A72DFF /* ALL_BUILD */;
+			targetProxy = A1334FFC1213453FBE8CF4E8 /* PBXContainerItemProxy */;
+		};
+		9F38AE4346504D15A3133093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = C2543DD3880D4915A6014017 /* PBXContainerItemProxy */;
+		};
+		BF46ABEBB84E4CDBA4970E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754A75ACA9B44E788C2C0DE /* ZERO_CHECK */;
+			targetProxy = 89CBF36BF5CF4C6DA9EA2732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		037BDA8BF860489BA7AECFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/build";
+			};
+			name = Release;
+		};
+		0ECF58E3F35E4B8A98F610B0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lzma;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35302E6EFDF248DBBBA593D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/build";
+			};
+			name = MinSizeRel;
+		};
+		366E2B8CC8F4403EBBC76976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3D00B3ABA5C44CFE88924894 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5C6B7C85392F4979800B6622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/build";
+			};
+			name = Debug;
+		};
+		6A1B9D3EB3B546958C40C73E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		711570CF10074F018500EB26 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma/build";
+			};
+			name = RelWithDebInfo;
+		};
+		74995E9E16F84410AC23FD85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		97F6B89B6C2C4E308C28799C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A533EE77E754A9EAFCB74DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AF1EE18F12B84E2CA142ADCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C11E5986102E4E0393F388E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lzma;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C2D96F41F25E41988A74A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C4AAAF7F2B744B719DCD7F38 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C55CFE30E9A74D2BA4C2409C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lzma;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D8B30F22B72D4B59AE49E587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lzma;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D8BCEDB6B67F450294BEA054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E6430287D61E4AA088AA6913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E67998ED0ABB49D49488578D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/seijiro/GoogleDrive/code/C:C++/myThe-Modern-Cpp-Challenge/build/libs/ZipLib/extlibs/lzma";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D36A78923D46FAB982A939 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D96F41F25E41988A74A1A1 /* Debug */,
+				D8BCEDB6B67F450294BEA054 /* Release */,
+				C4AAAF7F2B744B719DCD7F38 /* MinSizeRel */,
+				74995E9E16F84410AC23FD85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F5D5FEE70704EB6A1838B83 /* Build configuration list for PBXProject "lzma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6B7C85392F4979800B6622 /* Debug */,
+				037BDA8BF860489BA7AECFEB /* Release */,
+				35302E6EFDF248DBBBA593D5 /* MinSizeRel */,
+				711570CF10074F018500EB26 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8BE92627D4740D68E06D0D7 /* Build configuration list for PBXNativeTarget "lzma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B30F22B72D4B59AE49E587 /* Debug */,
+				C55CFE30E9A74D2BA4C2409C /* Release */,
+				0ECF58E3F35E4B8A98F610B0 /* MinSizeRel */,
+				C11E5986102E4E0393F388E3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFABC8BFC84648F0B3196384 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366E2B8CC8F4403EBBC76976 /* Debug */,
+				AF1EE18F12B84E2CA142ADCC /* Release */,
+				9A533EE77E754A9EAFCB74DE /* MinSizeRel */,
+				3D00B3ABA5C44CFE88924894 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECD4AC307EB0471E86841038 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67998ED0ABB49D49488578D /* Debug */,
+				E6430287D61E4AA088AA6913 /* Release */,
+				6A1B9D3EB3B546958C40C73E /* MinSizeRel */,
+				97F6B89B6C2C4E308C28799C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3268BFC9399B4279A6BEE7C5 /* Project object */;
+}
